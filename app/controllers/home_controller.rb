@@ -1,0 +1,19 @@
+class HomeController < ApplicationController
+  def index
+  end
+
+  def about
+  end
+
+  def resume
+  end
+
+  def coding
+  end
+
+  def contact
+  end
+
+  def artwork
+  end
+end

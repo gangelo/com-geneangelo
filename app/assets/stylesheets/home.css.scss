@@ -1,0 +1,62 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.rounded-corners {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+
+body {
+  background-color: #000;
+}
+
+.main-container {
+}
+
+.main-body {
+  display: block;
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+
+  border: 1px solid #888;
+}
+
+.main-body-inner {
+  position: fixed;
+  z-index: 100;
+  display: block;
+  width: 800px;
+  height: 200px;
+  background-color: #fff;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shadow {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+ul.navigation-bar {
+  float: right;
+}
+
+ul.navigation-bar li {
+  display: inline;
+}
+
+ul.navigation-bar li:after {
+  content: ' | ';
+}
+
+/*
+ul.navigation-bar li:last-child {
+  visibility: hidden;
+}
+*/
