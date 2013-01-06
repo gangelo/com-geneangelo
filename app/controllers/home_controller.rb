@@ -14,6 +14,7 @@ class HomeController < ApplicationController
   def contact
   end
 
+  # Artwork
   def artwork
   end
 end

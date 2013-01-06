@@ -7,10 +7,13 @@ class ApplicationController < ActionController::Base
   before_filter :set_background_image
 
   private
+
+  # Sets the site-wide title
   def set_title
     @title = 'Gene M. Angelo, Jr.'
   end
 
+  # Sets the background image
   def set_background_image()
     image_index = rand(0..4)
     @background_image = 'background-' + image_index.to_s + '.jpg'
