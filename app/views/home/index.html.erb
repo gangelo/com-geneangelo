@@ -1,6 +1,81 @@
+<% content_for :head do %>
+    <%= javascript_include_tag("collapsible-box", "homecontroller-index") %>
+<% end %>
+
 <h1>Home</h1>
 <p>Congratulations!</p>
-<p>You've made it!  You're <i>tasty</i> as in cake :')</p>
+<p>You've made it! You're <i>tasty</i> as in cake :')</p>
 
-<h2>Recruiters,</h2>
+<div id="blurb-box" class="blurb">
+  <h3>Attention Recruiters...</h3>
 
+  <div>
+    <p>Thank you for your consideration.</p>
+
+    <p>Due to the volume of emails received on a daily basis, I will respond only to correspondence meeting the below
+      criteria. For this restriction, I do apologize; however, it is not expedient to respond to every email received.
+    </p>
+
+    <p><i>Submissions meeting the following criteria may expect a response within 24-72 hours; please
+      include:</i></p>
+
+    <p>
+    <ul>
+      <li>Opportunities relevant to
+        my <%= link_to("preferences, technical skills and career direction", :controller => :home, :action => :about) %>
+        .
+      </li>
+      <li>Opportunities within my current geographical location (Northern NJ) or telecommute.</li>
+      <li>Detailed job description.</li>
+      <li>Detailed job requirements.</li>
+      <li><a id="age" href="#" title="C#.Net/MVC4: $90.00/Hr. min | Ruby On Rails: $110.00/Hr. min">Yearly salary/hourly rate (no exceptions please)</a></li>
+    </ul>
+    </p>
+    <p>
+      Sincerely,<br/>
+      Gene M. Angelo, Jr.
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div style="float: right;">
+    <%= image_tag("genemangelojr.jpg", :alt => "Gene and his wife Amy", :style => "padding:5px;") %>
+  </div>
+  Welcome to my web site.
+  <p>
+    My name is <strong>Gene M. Angelo, Jr</strong>. I am a professional Microsoft ASP.NET/C#
+    architect/application developer with over 20 years of application development experience.
+  </p>
+
+  <p>
+    The purpose of this web site is to introduce <strong>myself, my technical abilities
+    and work experience</strong> to would-be employers. If you are an employer seeking
+    to hire an articulate, personable, professional, I would like to make contact with
+    you.
+  </p>
+
+  <p>
+    Please feel free to review my condensed,
+    <a title="View my online personal profile." href="PersonalProfile.aspx">personal profile</a>
+    and/or resume available in both
+    <a title="View my online resume." href="Resume.aspx">online</a>
+    and
+    <a title="Download my resume." href="Downloads.aspx">downloadable</a>
+    formats. Contact information can be found in the upper-right corner of each web
+    page or by visiting my
+    <a title="Contact me." href="Contact.aspx">contact</a>
+    page.
+  </p>
+
+  <p>
+    &nbsp;
+  </p>
+
+  <div>
+    <div style="padding-bottom: 20px;">Thank you for your consideration!</div>
+    <%= image_tag("signature.jpg", :alt => "Gene M. Angelo, Jr. Signature") %>
+    <div style="padding-bottom: 10px;">Gene M. Angelo, Jr.</div>
+  </div>
+
+</div>

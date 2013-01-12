@@ -2,26 +2,27 @@
 <html>
 <head>
   <title><%= @title %> | Welcome</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
 
   <%= javascript_tag do -%>
       var backgroundImage = "<%= image_path(@background_image) %>";
       var backgroundImageBlur = "<%= image_path(@background_image_blur) %>";
   <% end -%>
   <%= javascript_include_tag "application" %>
-
+  <%= yield :head %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <div class="main-container">
-    <div class="main-body center rounded-corners shadow">
-        <span class="main-body-inner center rounded-corners"> </span>
-          <div style="padding-top: 200px; padding-left: 15px; padding-right: 15px; padding-bottom: 15px;">
-          <%= render "shared/navigation" %>
-          <%= yield %>
-        </div>
+  <div class="main-body center rounded-corners shadow">
+    <span class="main-body-inner center rounded-corners" style="height: 200px;"> </span>
+
+    <div style="padding-left: 15px; padding-right: 15px; padding-bottom: 15px;">
+      <%= render "shared/navigation" %>
+      <%= yield %>
     </div>
+  </div>
 </div>
 
 </body>

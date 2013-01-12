@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body{
+  font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;
+  font-size: 0.85em;
+}
+
 .rounded-corners {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -9,24 +14,32 @@
   border-radius: 20px;
 }
 
+.rounded-corners-small {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
 body {
   background-color: #000;
 }
 
 .main-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .main-body {
   display: block;
   width: 800px;
-  height: 600px;
+  min-height: 600px;
   background-color: #fff;
-
   border: 1px solid #888;
 }
 
 .main-body-inner {
-  position: fixed;
+  position: relative;
   z-index: 100;
   display: block;
   width: 800px;
@@ -55,8 +68,12 @@ ul.navigation-bar li:after {
   content: ' | ';
 }
 
-/*
-ul.navigation-bar li:last-child {
-  visibility: hidden;
+.blurb { /*
+  background-color: #eee;
+  margin: 12px;
+  padding: 5px; */
 }
-*/
+
+.section{
+  margin-top: 25px;
+}
