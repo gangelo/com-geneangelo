@@ -18,10 +18,11 @@
   <div class="main-body center rounded-corners shadow">
     <span class="main-body-inner center rounded-corners" style="height: 200px;"> </span>
 
-    <div style="padding-left: 15px; padding-right: 15px; padding-bottom: 15px;">
+    <div class="main-body-padding">
       <%= render "shared/navigation" %>
       <%= yield %>
     </div>
+    <%= render "shared/footer" %>
   </div>
 </div>
 

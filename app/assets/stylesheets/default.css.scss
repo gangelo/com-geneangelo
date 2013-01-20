@@ -2,10 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body{
+$base-h-font-size: 25px;
+$base-font-size: 0.85em;
+
+body {
   font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;
-  font-size: 0.85em;
+  font-size: $base-font-size;
+  /* color: #909090;*/
+  color: #1C94C4;
 }
+
+h1 {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: $base-h-font-size;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 10px 0 1px 0px;
+  font-size: $base-h-font-size - 5px;
+  line-height: 16px;
+  font-weight: bold;
+  padding: 0;
+}
+
+h3 {
+  margin: 20px 0 3px 0;
+  font-size: $base-h-font-size - 10px;
+  padding: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* custom*/
 
 .rounded-corners {
   -moz-border-radius: 20px;
@@ -47,6 +77,12 @@ body {
   background-color: #fff;
 }
 
+.main-body-padding, .footer-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -68,12 +104,34 @@ ul.navigation-bar li:after {
   content: ' | ';
 }
 
-.blurb { /*
+.blurb {
+  /*
   background-color: #eee;
   margin: 12px;
-  padding: 5px; */
+  padding: 5px;
+  */
 }
 
-.section{
+.section {
   margin-top: 25px;
+}
+
+/*footer*/
+.footer {
+  font-size: $base-font-size;
+}
+
+.pithy-quote {
+}
+
+/* .section>.section*/
+
+.section>.section {
+  background-color: #fefefe;
+}
+
+.section>.section {
+  h1 {
+    font-size: $base-h-font-size;
+  }
 }

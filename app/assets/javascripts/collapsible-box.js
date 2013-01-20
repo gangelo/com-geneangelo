@@ -6,13 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 (function ($) {
-    $.fn.collapsibleBox = function (options) {
-
-        // Create some defaults, extending them with any options that were provided
-        /*var settings = $.extend({
-         'background-color':'blue'
-         }, options);   */
-
+    $.fn.collapsibleBox = function () {
         return this.each(function () {
             var icons = {
                 header:"ui-icon-circle-arrow-e",
@@ -22,8 +16,10 @@
             var $this = $(this);
 
             $this.accordion({
+                active:false,
                 collapsible:true,
-                icons:icons
+                icons:icons,
+                heightStyle:"content"
             });
         });
     }

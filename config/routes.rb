@@ -61,8 +61,9 @@ ComGeneangelo::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
 
   root :to => "home#index"
+  match "/profile" => "home#profile"
   match "/resume" => "home#resume"
+  match "/downloads" => "home#downloads"
   match "/contact" => "home#contact"
   match "/coding" => "home#coding"
-  match "/artwork" => "home#artwork"
 end

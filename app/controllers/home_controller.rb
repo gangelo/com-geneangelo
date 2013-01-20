@@ -2,19 +2,18 @@ class HomeController < ApplicationController
   def index
   end
 
-  def about
+  def profile
   end
 
   def resume
+  end
+
+  def downloads
   end
 
   def coding
   end
 
   def contact
-  end
-
-  # Artwork
-  def artwork
   end
 end

@@ -1,8 +1,8 @@
 <ul class="navigation-bar">
-  <li><%= link_to_unless_current("Home", { :action => "index" }) %></li>
-  <li><%= link_to_unless_current("About", { :action => "about" }) %></li>
-  <li><%= link_to_unless_current("Resume", { :action => "resume" }) %></li>
-  <li><%= link_to_unless_current("Coding", { :action => "coding" }) %></li>
-  <li><%= link_to_unless_current("Contact", { :action => "contact" }) %></li>
-  <li><%= link_to_unless_current("Artwork", { :action => "artwork" }) %></li>
+  <li><%= link_to_unless_current("Home", {:action => "index"}) %></li>
+  <li><%= link_to_unless_current("Personal Profile", {:action => "profile"}) %></li>
+  <li><%= link_to_unless_current("Online Resume", {:action => "resume"}) %></li>
+  <li><%= link_to_unless_current("Downloads", {:action => "downloads"}) %></li>
+  <li><%= link_to_unless_current("Coding", {:action => "coding"}) %></li>
+  <li><%= link_to_unless_current("Contact Information", {:action => "contact"}) %></li>
 </ul>

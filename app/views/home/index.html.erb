@@ -1,42 +1,10 @@
 <% content_for :head do %>
-    <%= javascript_include_tag("collapsible-box", "homecontroller-index") %>
+    <%= javascript_include_tag("homecontroller-index") %>
 <% end %>
 
 <h1>Home</h1>
-<p>Congratulations!</p>
-<p>You've made it! You're <i>tasty</i> as in cake :')</p>
 
-<div id="blurb-box" class="blurb">
-  <h3>Attention Recruiters...</h3>
-
-  <div>
-    <p>Thank you for your consideration.</p>
-
-    <p>Due to the volume of emails received on a daily basis, I will respond only to correspondence meeting the below
-      criteria. For this restriction, I do apologize; however, it is not expedient to respond to every email received.
-    </p>
-
-    <p><i>Submissions meeting the following criteria may expect a response within 24-72 hours; please
-      include:</i></p>
-
-    <p>
-    <ul>
-      <li>Opportunities relevant to
-        my <%= link_to("preferences, technical skills and career direction", :controller => :home, :action => :about) %>
-        .
-      </li>
-      <li>Opportunities within my current geographical location (Northern NJ) or telecommute.</li>
-      <li>Detailed job description.</li>
-      <li>Detailed job requirements.</li>
-      <li><a id="age" href="#" title="C#.Net/MVC4: $90.00/Hr. min | Ruby On Rails: $110.00/Hr. min">Yearly salary/hourly rate (no exceptions please)</a></li>
-    </ul>
-    </p>
-    <p>
-      Sincerely,<br/>
-      Gene M. Angelo, Jr.
-    </p>
-  </div>
-</div>
+<%= render "shared/recruiter_message" %>
 
 <div class="section">
   <div style="float: right;">
@@ -57,14 +25,14 @@
 
   <p>
     Please feel free to review my condensed,
-    <a title="View my online personal profile." href="PersonalProfile.aspx">personal profile</a>
+    <%= link_to "personal profile", profile_path, :title => "View my personal profile" %>
     and/or resume available in both
-    <a title="View my online resume." href="Resume.aspx">online</a>
+    <%= link_to "online", resume_path, :title => "View my online resume" %>
     and
-    <a title="Download my resume." href="Downloads.aspx">downloadable</a>
+    <%= link_to "downloadable", downloads_path, :title => "Download my resume" %>
     formats. Contact information can be found in the upper-right corner of each web
     page or by visiting my
-    <a title="Contact me." href="Contact.aspx">contact</a>
+    <%= link_to "Contact Information", contact_path, :title => "Contact me" %>
     page.
   </p>
 

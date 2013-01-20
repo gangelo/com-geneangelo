@@ -14,5 +14,7 @@
 //= require jquery_ujs
 //= require jquery-ui
 //= require header
+//= require collapsible-box
+//= require recruiter-message
 //= jquery-ui-1.9.2.custom
 //= tooltips
