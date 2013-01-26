@@ -167,22 +167,27 @@ ul.navigation-bar li:after {
   }
 }
 
-.experience {
-  &>.job-title {
+.experience, .education {
+
+  border-top: 1px solid #999;
+  margin-top: 10px;
+  padding-top: 12px;
+
+  &>.job-title, &>.degree-specialty {
     font-weight: bold;
     display: inline-block;
   }
 
-  &>.job-title:after {
+  &>.job-title:after, &>.degree-specialty:after {
     content: ',';
   }
 
-  &>.job-company-name {
+  &>.job-company-name, &>.university-institution {
     font-style: italic;
     display: inline-block;
   }
 
-  &>.job-dates {
+  &>.job-dates, &>.timeframe-from-to {
     font-style: italic;
     font-size: smaller;
   }
