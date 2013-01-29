@@ -129,12 +129,17 @@ ul.navigation-bar li:after {
   margin-top: 25px;
 }
 
-/*footer*/
+/* footer*/
 .footer {
   font-size: $base-font-size;
 }
 
 .pithy-quote {
+  font-style: italic;
+
+  & .pithy-quote-source:before {
+    content: ' ~ ';
+  }
 }
 
 .section>.small-quote {
