@@ -19,7 +19,7 @@ class ApplicationController < ActionController::Base
 
   # Sets the site-wide contact email.
   def set_contact_email
-    @contact_email = 'public.gma@gmail.com'
+    @contact_email = 'public(dot)gma(at)gmail(dot)com'
   end
 
   # Sets the background image.

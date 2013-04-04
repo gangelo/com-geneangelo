@@ -8,12 +8,6 @@ class HomeController < ApplicationController
   def resume
   end
 
-  def downloads
-  end
-
-  def coding
-  end
-
   def contact
   end
 end
