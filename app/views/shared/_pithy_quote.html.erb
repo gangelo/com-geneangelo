@@ -1,0 +1,7 @@
+<div class="pithy-quote-container section small-quote rounded-corners-small">
+  <span class="pithy-quote"><%= raw(quote) %>&quot;</span>
+  <span class="pithy-quote-source"><%= raw(source) %></span>
+  <% if !response.nil? %>
+      <span class="pithy-quote-response"><%= raw(response) %></span>
+  <% end %>
+</div>

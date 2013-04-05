@@ -1,18 +1,16 @@
 <h1>Personal Profile</h1>
 
-<div class="pithy-quote">Then one day, the irate tortoise answered back: &quot;Who do you think you are? There&apos;s no
-  denying
-  you’re swift, but even you can be beaten!&quot; The hare squealed with laughter.
-  <span class="pithy-quote-source">The Tortoise and the Hare</span>
-</div>
+<%
+   quote = "Then one day, the irate tortoise answered back: 'Who do you think you are? There's no denying
+                you’re swift, but even you can be beaten!' The hare squealed with laughter."
+   source = "The Tortoise and the Hare"
+   response = "You you don't have to be the <i>best of the best</i> in order to be <em>great</em>
+                at what you do; passion and sheer determination oft trumps intellectual prowess - booyah!"
+%>
+
+<%= render "shared/pithy_quote", :quote => quote, :source => source, :response => response %>
 
 <div class="section">
-  <p>
-    You you don't have to be the <i>best of the best</i> in order to be <em>great</em> at what you do; passion and sheer
-    determination oft
-    trumps
-    intellectual prowess...</p>
-
   <p>Welcome to my <strong>personal profile</strong>. </p>
 
   <p>Here, potential employers and recruiters will find categorized,

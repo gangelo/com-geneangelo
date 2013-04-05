@@ -125,29 +125,49 @@ ul.navigation-bar li:after {
   */
 }
 
-.section {
-  margin-top: 25px;
-}
-
 /* footer*/
 .footer {
   font-size: $base-font-size;
 }
 
-.pithy-quote {
+/* pithy quote*/
+.pithy-quote-container {
   font-style: italic;
+  background-color: #e0e0e0;
+  display: block;
+  /* override the top padding of small-quote*/
+  padding-top: 25px !important;
+
+  & .pith-quote {
+    display: block;
+  }
 
   & .pithy-quote-source:before {
     content: ' ~ ';
   }
+
+  & .pithy-quote-response {
+    display: block;
+    font-style: normal;
+    margin-top: 20px;
+  }
 }
 
-.section>.small-quote {
-  background-color: #ddd;
+/* small quote*/
+.small-quote {
   background-image: url(quotes-small.png);
   background-position: 8px 25px;
   background-repeat: no-repeat;
   padding: 10px 10px 10px 30px;
+}
+
+/* section*/
+.section {
+  margin-top: 25px;
+}
+
+.section>.small-quote {
+  background-color: #e0e0e0;
 }
 
 /* like/dislike tags*/

@@ -4,24 +4,33 @@
 
 <h1>Home</h1>
 
-<%= render "shared/recruiter_message" %>
+<%
+   quote = "You're not from here, are you?"
+   source = "Vanellope von Schweetz, Wreck-It Ralph"
+   response = "You've come to the right place. I think."
+%>
+
+<%= render "shared/pithy_quote", :quote => quote, :source => source, :response => response %>
 
 <div class="section">
   <div style="float: right;">
-    <%= image_tag("genemangelojr.jpg", :alt => "Gene and his wife Amy", :style => "padding:5px;") %>
+    <%= image_tag("genemangelojr.jpg", :alt => "Me and my wife Amy", :style => "padding:5px;") %>
   </div>
-  Welcome.
   <p>
-    My name is <strong>Gene M. Angelo, Jr</strong>. I am a professional Microsoft ASP.NET/C#
+    Welcome.
+  </p>
+
+  <p>
+    My name is <strong>Gene M. Angelo, Jr</strong>. I'm a professional Microsoft ASP.NET/C#
     Application Developer/Architect with <%= render "shared/years_experience" %> years of application development
     experience.
   </p>
 
   <p>
-    The purpose of this web site is to introduce <strong>myself, my technical abilities
-    and work experience</strong> to would-be employers. If you're an employer seeking
-    to hire, or a recruiter seeking for represent an articulate, personable, professional, I'd love to connect with
-    you!
+    The purpose of this web site is to introduce myself, as well as outline my technical abilities,
+    work experience, and what I'm looking for in a position - all in an effort to aid potential employers
+    and technical recruiters in determining my candidacy.
+    If you're looking for an articulate, personable, passionate, professional, I'd love to hear from you!
   </p>
 
   <p>

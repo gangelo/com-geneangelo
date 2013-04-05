@@ -1,13 +1,14 @@
 <h1>Resume</h1>
 
-<div class="pithy-quote">"You, uh...you don't entertain much, do you?"
-  <span class="pithy-quote-source">Donkey, Shrek</span>
-</div>
+<%
+   quote = "You, uh...you don't entertain much, do you?"
+   source = "Donkey, Shrek"
+   response = "Uh...actually, I do! I've just been around for a while!"
+%>
+
+<%= render "shared/pithy_quote", :quote => quote, :source => source, :response => response %>
 
 <div class="section">
-  <p>
-    Uh...actually, I do! I've just been around for a while!</p>
-
   <p>Welcome to my <strong>online resume</strong>. </p>
 
   <p>Here, potential employers and recruiters will find detailed information about
