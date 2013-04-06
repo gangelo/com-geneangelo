@@ -6,8 +6,14 @@
  * To change this template use File | Settings | File Templates.
  */
 $(document).ready(function () {
+    // Top...
     $(".main-body-inner").css({ backgroundImage:"url(" + backgroundImageBlur + ")", backgroundRepeat:"no-repeat"});
     $(".main-body").css({ backgroundImage:"url(" + backgroundImage + ")", backgroundRepeat:"no-repeat"});
+
+    // Bottom...
+    $(".main-body-inner-bottom").css({ backgroundImage:"url(" + backgroundImageBlurBottom + ")", backgroundRepeat:"no-repeat"});
+    $(".main-body-bottom").css({ backgroundImage:"url(" + backgroundImageBottom + ")", backgroundRepeat:"no-repeat"});
+
     setTimeout(function () {
         slowHideBlurImage();
     }, 1500);
@@ -15,4 +21,5 @@ $(document).ready(function () {
 
 function slowHideBlurImage() {
     $(".main-body-inner").fadeTo(1500, 0);
+    $(".main-body-inner-bottom").fadeTo(1500, 0);
 }

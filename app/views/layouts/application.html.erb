@@ -7,6 +7,9 @@
   <%= javascript_tag do -%>
       var backgroundImage = "<%= image_path(@background_image) %>";
       var backgroundImageBlur = "<%= image_path(@background_image_blur) %>";
+
+      var backgroundImageBottom = "<%= image_path(@background_image_bottom) %>";
+      var backgroundImageBlurBottom = "<%= image_path(@background_image_blur_bottom) %>";
   <% end -%>
   <%= javascript_include_tag "application" %>
   <%= yield :head %>
@@ -16,13 +19,17 @@
 
 <div class="main-container">
   <div class="main-body center rounded-corners shadow">
-    <span class="main-body-inner center rounded-corners" style="height: 200px;"> </span>
+    <span class="main-body-inner center rounded-corners"> </span>
 
     <div class="main-body-padding">
       <%= render "shared/navigation" %>
       <%= yield %>
     </div>
     <%= render "shared/footer" %>
+
+    <div class="main-body-bottom center rounded-corners">
+      <span class="main-body-inner-bottom center rounded-corners"> </span>
+    </div>
   </div>
 </div>
 

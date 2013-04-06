@@ -24,10 +24,13 @@ class ApplicationController < ActionController::Base
 
   # Sets the background image.
   def set_background_image
-    image_index = rand(0..4)
-    @background_image = 'background-' + image_index.to_s + '.jpg'
-    @background_image_blur = 'background-' + image_index.to_s + '-blur.jpg'
-    # FileTest.exists?("#{@background_image}")
+    image_index = rand(0..3)
+
+    @background_image = 'background-' + image_index.to_s + '-top.jpg'
+    @background_image_blur = 'background-' + image_index.to_s + '-top-blur.jpg'
+
+    @background_image_bottom = 'background-' + image_index.to_s + '-bottom.jpg'
+    @background_image_blur_bottom = 'background-' + image_index.to_s + '-bottom-blur.jpg'
   end
 
   # Gets the last updated date for the view relating to the current action.

@@ -5,6 +5,9 @@
 $base-h-font-size: 25px;
 $base-font-size: 0.85em;
 
+$background-image-width: 800px;
+$background-image-height: 300px;
+
 body {
   font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;
   font-size: $base-font-size;
@@ -73,21 +76,25 @@ body {
   padding-bottom: 25px;
 }
 
-.main-body {
+.main-body, .main-body-bottom {
   display: block;
-  width: 800px;
-  min-height: 600px;
+  width: $background-image-width;
+  min-height: $background-image-height;
   background-color: #fff;
   border: 1px solid #888;
 }
 
-.main-body-inner {
+.main-body-inner, .main-body-inner-bottom {
   position: relative;
   z-index: 100;
   display: block;
-  width: 800px;
-  height: 200px;
+  width: $background-image-width;
+  height: $background-image-height;
   background-color: #fff;
+}
+
+.main-body-bottom {
+  border: none;
 }
 
 .main-body-padding, .footer-padding {
