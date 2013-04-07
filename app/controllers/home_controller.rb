@@ -10,7 +10,5 @@ class HomeController < ApplicationController
 
   def contact
     @contact_model = ContactModel.new
-    @contact_model.first_name ='Gene Angelo';
-    @contact_model
   end
 end
