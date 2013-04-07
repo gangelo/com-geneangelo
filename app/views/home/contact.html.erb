@@ -15,5 +15,11 @@
 <%= render "shared/recruiter_message" %>
 
 <div class="section">
-  Contact information here.
+  <%= form_tag do %>
+      <%= label(:contact_model, :first_name, "First Name") %>
+      <%= text_field(:contact_model, :first_name) %>
+
+      <%= label(:contact_model, :last_name, "Last Name") %>
+      <%= text_field(:contact_model, :last_name) %>
+  <% end %>
 </div>

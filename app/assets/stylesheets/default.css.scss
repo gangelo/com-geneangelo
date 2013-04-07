@@ -15,6 +15,19 @@ body {
   color: #1C94C4;
 }
 
+div.genemangelojr-header {
+  width: $background-image-width;
+  color: #ff9911;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+div.genemangelojr-header>h1 {
+  margin-bottom: 0px;
+}
+
 h1 {
   padding: 0;
   margin: 0 0 20px 0;
@@ -134,7 +147,16 @@ ul.navigation-bar li:after {
 
 /* footer*/
 .footer {
+  color: #666;
   font-size: $base-font-size;
+}
+
+div.hr {
+  border-top: 1px solid #ddd;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 12px;
 }
 
 /* pithy quote*/

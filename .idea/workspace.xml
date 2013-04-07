@@ -1,38 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac7b2799-56e1-4754-b750-6661ae453c98" name="Default" comment="General changes.  Make &quot;Pithy Quote&quot; section partial.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-0-bottom-blur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-0-bottom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-0-top-blur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-0-top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-1-bottom-blur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-1-bottom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-1-top-blur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-1-top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-2-bottom-blur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-2-bottom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-2-top-blur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-2-top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-3-bottom-blur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-3-bottom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-3-top-blur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-3-top.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-0-blur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-1-blur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-2-blur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-3-blur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-4-blur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/background-4.jpg" afterPath="" />
+    <list default="true" id="ac7b2799-56e1-4754-b750-6661ae453c98" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-4-bottom-blur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-4-bottom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-4-top-blur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/background-4-top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/mail-white-on-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/contact_model.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/header.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/contact.html.erb" afterPath="$PROJECT_DIR$/app/views/home/contact.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
     </list>
     <ignored path="com.geneangelo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,37 +33,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="55" selection-start="945" selection-end="945" vertical-scroll-proportion="-11.52">
+            <state line="2" column="35" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/header.js">
+      <file leaf-file-name="contact.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/contact.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="89" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="21" column="49" selection-start="628" selection-end="628" vertical-scroll-proportion="0.71948606">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="contact_model.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/contact_model.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="27" selection-start="576" selection-end="576" vertical-scroll-proportion="0.28455284">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0">
+            <state line="3" column="67" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,22 +84,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/shared/_recruiter_message.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_years_experience.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_overview.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_pithy_quote.erb" />
         <option value="$PROJECT_DIR$/app/views/home/profile.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/resume.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_pithy_quote.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/header.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
+        <option value="$PROJECT_DIR$/app/models/contact_model.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/home/contact.html.erb" />
       </list>
     </option>
   </component>
@@ -192,58 +165,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.VendorFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -436,6 +357,24 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="models">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -494,27 +433,57 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="javascripts">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="assets">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -525,14 +494,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="45" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="65" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="47" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="47" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="70" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="477" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="442" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="477" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="50" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="48" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -867,7 +836,11 @@
       <created>1365133703069</created>
       <updated>1365133703069</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change default layout to include top and bottom animated images.">
+      <created>1365216398759</created>
+      <updated>1365216398759</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -898,7 +871,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1743185" sideWeight="0.21879022" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18005739" sideWeight="0.66795367" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18292683" sideWeight="0.66795367" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.223099" sideWeight="0.21879022" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33204633" sideWeight="0.50645626" order="7" side_tool="true" content_ui="tabs" />
@@ -949,7 +922,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="General changes.  Make &quot;Pithy Quote&quot; section partial." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change default layout to include top and bottom animated images." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -968,29 +941,15 @@
     <MESSAGE value="Changes to profile page." />
     <MESSAGE value="General changes.  Changes to Profile, Resume and Contact Information primarily." />
     <MESSAGE value="General changes.  Make &quot;Pithy Quote&quot; section partial." />
+    <MESSAGE value="Change default layout to include top and bottom animated images." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_years_experience.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="69" selection-start="31" selection-end="69" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_overview.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="35" selection-start="1846" selection-end="1846" vertical-scroll-proportion="-8.2" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="53" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="uml://RailsDependency/#com.geneangelo">
@@ -1013,175 +972,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/profile.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="93" selection-start="27" selection-end="571" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="93" selection-start="27" selection-end="571" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/resume.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="276" selection-end="639" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1365133693000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="16" column="6" selection-start="276" selection-end="639" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_pithy_quote.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="54" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/contact.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="0" selection-end="476" vertical-scroll-proportion="-10.24">
-          <folding />
-        </state>
+        <state line="6" column="6" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="89" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="55" selection-start="945" selection-end="945" vertical-scroll-proportion="-11.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0">
+        <state line="13" column="89" selection-start="534" selection-end="534" vertical-scroll-proportion="0.24390244">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="576" selection-end="576" vertical-scroll-proportion="0.28455284">
+        <state line="21" column="41" selection-start="470" selection-end="470" vertical-scroll-proportion="0.5995935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="403" selection-end="403" vertical-scroll-proportion="-9.6">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="0" selection-end="439" vertical-scroll-proportion="-2.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="-4.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/contact_model.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="67" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="104" selection-start="703" selection-end="799" vertical-scroll-proportion="0.856531">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="35" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/contact.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="49" selection-start="628" selection-end="628" vertical-scroll-proportion="0.71948606">
           <folding />
         </state>
       </provider>
