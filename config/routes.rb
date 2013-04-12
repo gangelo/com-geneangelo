@@ -63,7 +63,6 @@ ComGeneangelo::Application.routes.draw do
   root :to => "home#index"
   match "/profile" => "home#profile"
   match "/resume" => "home#resume"
-  match "/downloads" => "home#downloads"
   match "/contact" => "home#contact"
-  match "/coding" => "home#coding"
+  match "/send_email" => "home#send_email"
 end

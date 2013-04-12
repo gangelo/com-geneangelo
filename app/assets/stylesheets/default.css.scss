@@ -24,6 +24,25 @@ div.genemangelojr-header {
   margin-bottom: 20px;
 }
 
+.flash-notice-container {
+  width: $background-image-width;
+  background-color: #eee;
+  height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: $base-font-size * 1.50;
+  font-weight: bold;
+
+  .flash-notice {
+    color: #1C94C4;
+  }
+
+  .flash-error {
+    color: #990000;
+  }
+}
+
 div.genemangelojr-header>h1 {
   margin-bottom: 0px;
 }
@@ -122,7 +141,7 @@ body {
 }
 
 .shadow {
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 8px 8px 3px rgba(151, 151, 151, 0.65);
 }
 
 ul.navigation-bar {
@@ -245,4 +264,13 @@ div.hr {
     font-style: italic;
     font-size: smaller;
   }
+}
+
+.form-label {
+  text-transform: capitalize;
+  display: block;
+}
+
+.form-field {
+  margin-bottom: 12px;
 }
