@@ -172,6 +172,7 @@ ul.navigation-bar li:after {
 .footer {
   color: #666;
   font-size: $base-font-size;
+  line-height: 20px;
 }
 
 div.hr {
@@ -273,8 +274,23 @@ div.hr {
 .form-label {
   text-transform: capitalize;
   display: block;
+
+  &.required:after {
+    content: url(required-icon.png);
+    margin-left: 3px;
+  }
 }
 
 .form-field {
   margin-bottom: 12px;
+}
+
+.form-key {
+  display: block;
+  margin-top: 12px;
+
+  &.form-key:before {
+    content: url(required-icon.png);
+    margin-right: 3px;
+  }
 }

@@ -10,7 +10,8 @@ class HomeController < ApplicationController
   end
 
   def contact
-    @contact_model ||= ContactModel.new(params[:contact_model])
+    @contact_model = ContactModel.new(params[:contact_model])
+    @contact_model
   end
 
   # POST /contact_model
@@ -23,10 +24,10 @@ class HomeController < ApplicationController
         # Send the contact email out...
         ContactMailer.contact_email(@contact_model).deliver
         contact_model_params[:email_sent] = true
-        format.html { redirect_to({:action => :contact, :contact_model => contact_model_params}, {notice: 'Your email has been successfully sent.  Thank you!'}) }
+        format.html { redirect_to({:action => :contact, :contact_model => contact_model_params}, {notice: "Yippie! Your email's on it's way!  Thank you!"}) }
       else
         contact_model_params[:email_sent] = false
-        format.html { redirect_to({:action => :contact, :contact_model => contact_model_params}, {alert: 'Please fill out the required fields.'}) }
+        format.html { redirect_to({:action => :contact, :contact_model => contact_model_params}, {alert: "Oops! we couldn't send your email.  Are you missing something?"}) }
       end
 
     end

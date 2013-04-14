@@ -1,15 +1,22 @@
 <div class="footer footer-padding">
   <div class="hr"></div>
+  <div class="copyright">
+    © <%= Date.today.year.to_s %> Gene M. Angelo, Jr. All Rights Reserved.
+  </div>
+
   <div>
     For additional
     information: <%= image_tag("mail-white-on-black.png", :alt => "Contact", :style => "vertical-align:middle;") %>
     <%= @contact_email %>.
   </div>
+
   <div>
     Last Updated <%= @view_last_modified_date %>, Version 1.0.0.1 (Release)
   </div>
+
   <div><%= image_tag("rails.png", :alt => "Built with Rails", :style => "margin-top:8px;") %>
     <a href='http://www.catb.org/hacker-emblem/' target="_blank">
       <img src='http://www.catb.org/hacker-emblem/glider.png' alt='hacker emblem'/></a>
   </div>
+
 </div>

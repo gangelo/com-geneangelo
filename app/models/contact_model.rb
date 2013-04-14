@@ -14,15 +14,16 @@ class ContactModel
   include ActiveModel::Validations
   include ActiveModel::Validations::Callbacks
 
-  before_validation :strip_whitespace
-
-  validates_format_of :email_address, :email_address_confirmation, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
-  validates :email_address, :confirmation => true
-
   attr_accessor :first_name, :last_name, :email_address, :email_address_confirmation,
                 :telephone_number, :subject, :message
 
   attr_reader :property_labels
+
+  before_validation :strip_whitespace
+
+  validates_format_of :email_address, :email_address_confirmation, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+  validates :telephone_number, :numericality => {:only_integer => true}, :allow_blank => true
+  validates :email_address, :confirmation => true
 
   validates_each :first_name,
                  :last_name,
@@ -49,11 +50,11 @@ class ContactModel
   end
 
   def email_sent=(value)
-    @email_sent = value
+    @email_sent = ContactModel::to_boolean(value)
   end
 
   def email_sent?
-    @email_sent
+    ContactModel::to_boolean(@email_sent)
   end
 
   def self.property_labels
@@ -74,16 +75,21 @@ class ContactModel
 
   private
   def strip_whitespace
-    strip @first_name
-    strip @last_name
-    strip @email_address
-    strip @email_address_confirmation
-    strip @telephone_number
-    strip @subject
-    strip @message
+    ContactModel::strip @first_name
+    ContactModel::strip @last_name
+    ContactModel::strip @email_address
+    ContactModel::strip @email_address_confirmation
+    ContactModel::strip @telephone_number
+    ContactModel::strip @subject
+    ContactModel::strip @message
   end
 
-  def strip(property)
+  def self.to_boolean(value)
+    return true if value.respond_to?(:to_s) && value.to_s.downcase == 'true'
+    false
+  end
+
+  def self.strip(property)
     property.to_s.strip! if property.respond_to?(:to_s) && property.respond_to?(:strip!)
   end
 end
