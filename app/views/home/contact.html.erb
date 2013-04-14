@@ -16,31 +16,56 @@
 
 <div class="section">
 
-  <%= form_for @contact_model, :url => {:action => :send_email} do |f| %>
-      <%= f.label :first_name, ContactModel.property_labels[:first_name], :class => "form-label" %>
-      <%= f.text_field :first_name, :class => "form-field" %>
+  <% if @contact_model.email_sent? %>
 
-      <%= f.label :last_name, ContactModel.property_labels[:last_name], :class => "form-label" %>
-      <%= f.text_field :last_name, :class => "form-field" %>
+      <%= label_tag :first_name, ContactModel.property_labels[:first_name], :class => "form-label" %>
+      <%= text_field_tag :first_name, @contact_model.first_name, :class => "form-field", :disabled => "disabled" %>
 
-      <%= f.label :email_address, ContactModel.property_labels[:email_address], :class => "form-label" %>
-      <%= f.email_field :email_address, :class => "form-field" %>
+      <%= label_tag :last_name, ContactModel.property_labels[:last_name], :class => "form-label" %>
+      <%= text_field_tag :last_name, @contact_model.last_name, :class => "form-field", :disabled => "disabled" %>
 
-      <%= f.label :email_address_confirmation, ContactModel.property_labels[:email_address_confirmation], :class => "form-label" %>
-      <%= f.email_field :email_address_confirmation, :class => "form-field" %>
+      <%= label_tag :email_address, ContactModel.property_labels[:email_address], :class => "form-label" %>
+      <%= email_field_tag :email_address, @contact_model.email_address, :class => "form-field", :disabled => "disabled" %>
 
-      <%= f.label :telephone_number, ContactModel.property_labels[:telephone_number], :class => "form-label" %>
-      <%= f.telephone_field :telephone_number, :class => "form-field" %>
+      <%= label_tag :email_address_confirmation, ContactModel.property_labels[:email_address_confirmation], :class => "form-label" %>
+      <%= email_field_tag :email_address_confirmation, @contact_model.email_address_confirmation, :class => "form-field", :disabled => "disabled" %>
 
-      <%= f.label :subject, ContactModel.property_labels[:subject], :class => "form-label" %>
-      <%= f.text_field :subject, :class => "form-field" %>
+      <%= label_tag :telephone_number, ContactModel.property_labels[:telephone_number], :class => "form-label" %>
+      <%= telephone_field_tag :telephone_number, @contact_model.telephone_number, :class => "form-field", :disabled => "disabled" %>
 
-      <%= f.label :message, ContactModel.property_labels[:message], :class => "form-label" %>
-      <%= f.text_area :message, :size => "60x12", :class => "form-field" %>
+      <%= label_tag :subject, ContactModel.property_labels[:subject], :class => "form-label" %>
+      <%= text_field_tag :subject, @contact_model.subject, :class => "form-field", :disabled => "disabled" %>
 
-      <%= f.hidden_field :email_sent? %>
+      <%= label_tag :message, ContactModel.property_labels[:message], :class => "form-label" %>
+      <%= text_area_tag :message, @contact_model.message, :size => "60x12", :class => "form-field", :disabled => "disabled" %>
 
-      <%= f.submit("Submit") unless @contact_model.email_sent? %>
+  <% else %>
+
+      <%= form_for @contact_model, :url => {:action => :send_email} do |f| %>
+          <%= f.label :first_name, ContactModel.property_labels[:first_name], :class => "form-label" %>
+          <%= f.text_field :first_name, :class => "form-field" %>
+
+          <%= f.label :last_name, ContactModel.property_labels[:last_name], :class => "form-label" %>
+          <%= f.text_field :last_name, :class => "form-field" %>
+
+          <%= f.label :email_address, ContactModel.property_labels[:email_address], :class => "form-label" %>
+          <%= f.email_field :email_address, :class => "form-field" %>
+
+          <%= f.label :email_address_confirmation, ContactModel.property_labels[:email_address_confirmation], :class => "form-label" %>
+          <%= f.email_field :email_address_confirmation, :class => "form-field" %>
+
+          <%= f.label :telephone_number, ContactModel.property_labels[:telephone_number], :class => "form-label" %>
+          <%= f.telephone_field :telephone_number, :class => "form-field" %>
+
+          <%= f.label :subject, ContactModel.property_labels[:subject], :class => "form-label" %>
+          <%= f.text_field :subject, :class => "form-field" %>
+
+          <%= f.label :message, ContactModel.property_labels[:message], :class => "form-label" %>
+          <%= f.text_area :message, :size => "60x12", :class => "form-field" %>
+
+          <%= f.hidden_field :email_sent? %>
+
+          <%= f.submit("Submit") %>
+      <% end %>
   <% end %>
-
 </div>
