@@ -16,28 +16,31 @@
 
 <div class="section">
 
-  <%= form_for ContactModel.new, :url => {:action => :send_email} do |f| %>
-      <%= f.label :first_name, :class => "form-label" %>
+  <%= form_for @contact_model, :url => {:action => :send_email} do |f| %>
+      <%= f.label :first_name, ContactModel.property_labels[:first_name], :class => "form-label" %>
       <%= f.text_field :first_name, :class => "form-field" %>
 
-      <%= f.label :last_name, :class => "form-label" %>
+      <%= f.label :last_name, ContactModel.property_labels[:last_name], :class => "form-label" %>
       <%= f.text_field :last_name, :class => "form-field" %>
 
-      <%= f.label :email_address, :class => "form-label" %>
+      <%= f.label :email_address, ContactModel.property_labels[:email_address], :class => "form-label" %>
       <%= f.email_field :email_address, :class => "form-field" %>
 
-      <%= f.label :email_address_confirmed, "Confirm Email Address", :class => "form-label" %>
-      <%= f.email_field :email_address_confirmed, :class => "form-field" %>
+      <%= f.label :email_address_confirmation, ContactModel.property_labels[:email_address_confirmation], :class => "form-label" %>
+      <%= f.email_field :email_address_confirmation, :class => "form-field" %>
 
-      <%= f.label :telephone_number, :class => "form-label" %>
+      <%= f.label :telephone_number, ContactModel.property_labels[:telephone_number], :class => "form-label" %>
       <%= f.telephone_field :telephone_number, :class => "form-field" %>
 
-      <%= f.label :subject, "Subject", :class => "form-label" %>
+      <%= f.label :subject, ContactModel.property_labels[:subject], :class => "form-label" %>
       <%= f.text_field :subject, :class => "form-field" %>
 
-      <%= f.label :contact_message, "Message", :class => "form-label" %>
-      <%= f.text_area :contact_message, :size => "60x12", :class => "form-field" %>
+      <%= f.label :message, ContactModel.property_labels[:message], :class => "form-label" %>
+      <%= f.text_area :message, :size => "60x12", :class => "form-field" %>
 
-      <%= f.submit "Submit" %>
+      <%= f.hidden_field :email_sent? %>
+
+      <%= f.submit("Submit") unless @contact_model.email_sent? %>
   <% end %>
+
 </div>

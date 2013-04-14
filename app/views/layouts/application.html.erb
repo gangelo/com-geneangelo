@@ -4,25 +4,42 @@
   <title><%= @title %> | Welcome</title>
   <%= stylesheet_link_tag "application", :media => "all" %>
 
+  <%= javascript_include_tag "application" %>
+
   <%= javascript_tag do -%>
       var backgroundImage = "<%= image_path(@background_image) %>";
       var backgroundImageBlur = "<%= image_path(@background_image_blur) %>";
 
       var backgroundImageBottom = "<%= image_path(@background_image_bottom) %>";
       var backgroundImageBlurBottom = "<%= image_path(@background_image_blur_bottom) %>";
+
+      <% if flash[:notice] || flash[:alert] %>
+          $(document).ready(function () {
+          setTimeout(function() {
+          $('.flash-notice-container').slideDown({
+          // complete:function() { slideUp($(this)); }
+          });
+          }, 500);
+          });
+
+          /*
+          function slideUp($this) {
+          setTimeout(function() {
+          $this.slideUp();
+          }, 3500);
+          }
+          */
+      <% end %>
   <% end -%>
-  <%= javascript_include_tag "application" %>
+
   <%= yield :head %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<%= render "shared/flash_notice" %>
 
 <div class="main-container">
-
-  <div class="flash-notice-container center rounded-corners-small shadow">
-    <%= render "shared/flash_notice" %>
-  </div>
 
   <div class="genemangelojr-header">
     <h1>Gene M. Angelo, Jr.</h1>

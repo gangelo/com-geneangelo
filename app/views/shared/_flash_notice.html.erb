@@ -1,6 +1,10 @@
-<% if flash[:alert] %>
-    <div class="flash-error"><%= flash[:alert] %></div>
-<% end %>
-<% if flash[:notice] %>
-    <div class="flash-notice"><%= flash[:notice] %></div>
+<% if flash[:alert] || flash[:notice] %>
+    <div class="flash-notice-container">
+      <% if flash[:alert] %>
+          <div class="flash-error"><%= image_tag("stop_icon.png", :alt => "Error", :class => "flash-icon") %><%= flash[:alert] %></div>
+      <% end %>
+      <% if flash[:notice] %>
+          <div class="flash-notice"><%= image_tag("ok_icon.png", :alt => "Success", :class => "flash-icon") %><%= flash[:notice] %></div>
+      <% end %>
+    </div>
 <% end %>

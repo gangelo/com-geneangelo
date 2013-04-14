@@ -14,33 +14,58 @@ class ContactModel
   include ActiveModel::Validations
   include ActiveModel::Validations::Callbacks
 
-  validates_presence_of :first_name, :last_name, :email_address, :email_address_confirmed, :subject, :contact_message
-  validates_format_of :email_address, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
-  # TODO: validate email and email confirmation.
-
   before_validation :strip_whitespace
 
-  attr_accessor :first_name, :last_name, :email_address, :email_address_confirmed,
-                :telephone_number, :subject, :contact_message
+  validates_format_of :email_address, :email_address_confirmation, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+  validates :email_address, :confirmation => true
+
+  attr_accessor :first_name, :last_name, :email_address, :email_address_confirmation,
+                :telephone_number, :subject, :message
+
+  attr_reader :property_labels
 
   validates_each :first_name,
                  :last_name,
                  :email_address,
-                 :email_address_confirmed,
+                 :email_address_confirmation,
                  :subject,
-                 :contact_message do |record, attr, value|
+                 :message do |record, attr, value|
     record.errors.add attr, 'is required.' if value.to_s.blank?
   end
 
   def initialize(options={})
+    @email_sent = false
 
-    @first_name = options[:first_name] if options.has_key?(:first_name)
-    @last_name = options[:last_name] if options.has_key?(:last_name)
-    @email_address = options[:email_address] if options.has_key?(:email_address)
-    @email_address_confirmed = options[:email_address_confirmed] if options.has_key?(:email_address_confirmed)
-    @telephone_number = options[:telephone_number] if options.has_key?(:telephone_number)
-    @subject = options[:subject] if options.has_key?(:subject)
-    @contact_message = options[:contact_message] if options.has_key?(:contact_message)
+    unless options.nil?
+      @first_name = options[:first_name] if options.has_key?(:first_name)
+      @last_name = options[:last_name] if options.has_key?(:last_name)
+      @email_address = options[:email_address] if options.has_key?(:email_address)
+      @email_address_confirmation = options[:email_address_confirmation] if options.has_key?(:email_address_confirmation)
+      @telephone_number = options[:telephone_number] if options.has_key?(:telephone_number)
+      @subject = options[:subject] if options.has_key?(:subject)
+      @message = options[:message] if options.has_key?(:message)
+      @email_sent = options[:email_sent] if options.has_key?(:email_sent)
+    end
+  end
+
+  def email_sent=(value)
+    @email_sent = value
+  end
+
+  def email_sent?
+    @email_sent
+  end
+
+  def self.property_labels
+    {
+        :first_name => 'First Name',
+        :last_name => 'Last Name',
+        :email_address => 'Email Address',
+        :email_address_confirmation => 'Email Address (Confirm)',
+        :telephone_number => 'Telephone Number',
+        :subject => 'Subject',
+        :message => 'Message'
+    }
   end
 
   def persisted?
@@ -52,10 +77,10 @@ class ContactModel
     strip @first_name
     strip @last_name
     strip @email_address
-    strip @email_address_confirmed
+    strip @email_address_confirmation
     strip @telephone_number
     strip @subject
-    strip @contact_message
+    strip @message
   end
 
   def strip(property)
