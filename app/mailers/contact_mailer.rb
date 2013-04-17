@@ -1,12 +1,16 @@
-class ContactMailer < ActionMailer::Base
-  default from: "me@geneangelo.com"
-  default to: "me@geneangelo.com"
-  default subject: "You've received an email from www.geneangelo.com."
+require 'email_address'
 
-  def contact_email(model)
-    if (model.is_a? ContactModel)
-      #mail(to: :to, subject: :subject, from: model.email_address)
-      mail(from: model.email_address, subject: model.subject)
-    end
+class ContactMailer < ActionMailer::Base
+
+  # @param [Contact] contact
+  def contact_email(contact)
+    to = contact.to.email_address_with_name unless contact.to.nil? and not contact.to.respond_to?(:email_address_with_name)
+    mail(from: contact.from.email_address_with_name,
+         to: to,
+         subject: contact.subject,
+         message: contact.message,
+         content_type: contact.content_type,
+         cc: contact.cc,
+         bcc: contact.bcc)
   end
 end

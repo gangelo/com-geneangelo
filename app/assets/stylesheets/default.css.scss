@@ -294,3 +294,19 @@ div.hr {
     margin-right: 3px;
   }
 }
+
+.error-message-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: #900;
+  text-transform: capitalize;
+}
+
+.error-message:before {
+  content: url(error-icon.png);
+  vertical-align: middle;
+  margin-right: 3px;
+}

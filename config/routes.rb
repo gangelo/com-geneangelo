@@ -1,6 +1,7 @@
 ComGeneangelo::Application.routes.draw do
+  get "contact/new"
+  get "contact/create"
   get "home/index"
-
   get "home/about"
 
   # The priority is based upon order of creation:
@@ -63,6 +64,6 @@ ComGeneangelo::Application.routes.draw do
   root :to => "home#index"
   match "/profile" => "home#profile"
   match "/resume" => "home#resume"
-  match "/contact" => "home#contact"
-  match "/send_email" => "home#send_email"
+  match "/contact" => "contact#new"
+  match "/contact/create" => "contact#create"
 end

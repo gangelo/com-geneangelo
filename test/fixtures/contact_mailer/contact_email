@@ -1,5 +1,11 @@
-Hi friend@example.com,
-
-You have been invited.
-
-Cheers!
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+</head>
+<body>
+<h1>Email from www.geneangelo.com</h1>
+From: [&quot;from@from.com&quot;]
+To: [&quot;to@to.com&quot;]
+</body>
+</html>

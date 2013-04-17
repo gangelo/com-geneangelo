@@ -16,33 +16,38 @@
 
 <div class="section">
 
-  <% disabled = @contact_model.email_sent? %>
+  <%= form_for @contact_model, :url => {controller: :contact, action: :create} do |f| %>
 
-  <%= form_for @contact_model, :url => {:action => :send_email} do |f| %>
+      <% unless @contact_model.errors.empty? %>
+          <div class="error-message-container">
+            <% @contact_model.errors.full_messages.each do |message| %>
+                <span class="error-message"><%= message %></span>
+            <% end %>
+          </div>
+      <% end %>
+
       <%= f.label :first_name, ContactModel.property_labels[:first_name], :class => "form-label required" %>
-      <%= f.text_field :first_name, :class => "form-field", :disabled => disabled %>
+      <%= f.text_field :first_name, :class => "form-field", maxlength: 32, size: 40 %>
 
       <%= f.label :last_name, ContactModel.property_labels[:last_name], :class => "form-label required" %>
-      <%= f.text_field :last_name, :class => "form-field", :disabled => disabled %>
+      <%= f.text_field :last_name, :class => "form-field", maxlength: 32, size: 40 %>
 
       <%= f.label :email_address, ContactModel.property_labels[:email_address], :class => "form-label required" %>
-      <%= f.email_field :email_address, :class => "form-field", :disabled => disabled %>
+      <%= f.email_field :email_address, :class => "form-field", maxlength: 256, size: 40 %>
 
       <%= f.label :email_address_confirmation, ContactModel.property_labels[:email_address_confirmation], :class => "form-label required" %>
-      <%= f.email_field :email_address_confirmation, :class => "form-field", :disabled => disabled %>
+      <%= f.email_field :email_address_confirmation, :class => "form-field", maxlength: 256, size: 40 %>
 
       <%= f.label :telephone_number, ContactModel.property_labels[:telephone_number], :class => "form-label" %>
-      <%= f.telephone_field :telephone_number, :class => "form-field", :disabled => disabled, :size => 30, :maxlength => 10, :placeholder => "1234567890" %>
+      <%= f.telephone_field :telephone_number, :class => "form-field", size: 40, maxlength: 10, placeholder: "1234567890" %>
 
       <%= f.label :subject, ContactModel.property_labels[:subject], :class => "form-label required" %>
-      <%= f.text_field :subject, :class => "form-field", :disabled => disabled %>
+      <%= f.text_field :subject, :class => "form-field", maxlength: 128, size: 75 %>
 
       <%= f.label :message, ContactModel.property_labels[:message], :class => "form-label required" %>
-      <%= f.text_area :message, :size => "60x12", :class => "form-field", :disabled => disabled, :placeholder => "Type your message here" %>
+      <%= f.text_area :message, size: "60x12", :class => "form-field", maxlength: 2048, placeholder: "Type your message here" %>
 
-      <%= f.hidden_field :email_sent? %>
-
-      <%= f.submit "Submit", :style => "display:block;", :disabled => disabled %>
+      <%= f.submit("Submit", :style => "display:block;") %>
   <% end %>
 
   <%= render "shared/form_key" %>

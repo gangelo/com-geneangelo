@@ -37,9 +37,14 @@ class ApplicationController < ActionController::Base
   def set_view_last_modified_date
     date_format = '%-m/%-d/%Y'
 
-    @template_path = lookup_context.find_template("#{controller_path}/#{action_name}").identifier
-    File.exists? @template_path ?
-                     @view_last_modified_date = File.mtime(@template_path).strftime(date_format) :
-                     @view_last_modified_date = DateTime.new(:month => 1, :day => 1, :year => 2013).strftime(date_format)
+    @view_last_modified_date = DateTime.new(2013, 1, 1).strftime(date_format)
+
+    template_name = lookup_context.find_template("#{controller_path}/#{action_name}")
+    unless template_name.nil?
+      @template_path = template_name.identifier
+      File.exists? @template_path ?
+                       @view_last_modified_date = File.mtime(@template_path).strftime(date_format) :
+                       @view_last_modified_date
+    end
   end
 end

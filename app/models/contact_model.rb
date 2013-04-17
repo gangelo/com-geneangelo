@@ -14,6 +14,9 @@ class ContactModel
   include ActiveModel::Validations
   include ActiveModel::Validations::Callbacks
 
+  # For attributes method
+  include ActiveModel::Serialization
+
   attr_accessor :first_name, :last_name, :email_address, :email_address_confirmation,
                 :telephone_number, :subject, :message
 
@@ -24,6 +27,10 @@ class ContactModel
   validates_format_of :email_address, :email_address_confirmation, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
   validates :telephone_number, :numericality => {:only_integer => true}, :allow_blank => true
   validates :email_address, :confirmation => true
+  validates_length_of :email_address, :maximum => 256
+  validates_length_of :first_name, :last_name, :maximum => 32
+  validates_length_of :subject, :maximum => 128
+  validates_length_of :message, :maximum => 2048
 
   validates_each :first_name,
                  :last_name,
@@ -34,19 +41,12 @@ class ContactModel
     record.errors.add attr, 'is required.' if value.to_s.blank?
   end
 
-  def initialize(options={})
+  def initialize(attributes={})
     @email_sent = false
 
-    unless options.nil?
-      @first_name = options[:first_name] if options.has_key?(:first_name)
-      @last_name = options[:last_name] if options.has_key?(:last_name)
-      @email_address = options[:email_address] if options.has_key?(:email_address)
-      @email_address_confirmation = options[:email_address_confirmation] if options.has_key?(:email_address_confirmation)
-      @telephone_number = options[:telephone_number] if options.has_key?(:telephone_number)
-      @subject = options[:subject] if options.has_key?(:subject)
-      @message = options[:message] if options.has_key?(:message)
-      @email_sent = options[:email_sent] if options.has_key?(:email_sent)
-    end
+    attributes.each do |name, value|
+      send("#{name}=", value)
+    end unless attributes.nil?
   end
 
   def email_sent=(value)
@@ -72,6 +72,10 @@ class ContactModel
   def persisted?
     false
   end
+
+  #def attributes
+  #  JSON.parse(self.to_json)
+  #end
 
   private
   def strip_whitespace
