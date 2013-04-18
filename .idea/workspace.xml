@@ -6,17 +6,88 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-568a971a765679bf586afceda3dc7555.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-568a971a765679bf586afceda3dc7555.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js.gz" afterPath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script.js.gz" afterPath="$PROJECT_DIR$/public/assets/coffee-script.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js.gz" afterPath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box.js.gz" afterPath="$PROJECT_DIR$/public/assets/collapsible-box.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common-42b0f4a42c2dd9fd7a5a70c6a6300199.js.gz" afterPath="$PROJECT_DIR$/public/assets/common-42b0f4a42c2dd9fd7a5a70c6a6300199.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common.js.gz" afterPath="$PROJECT_DIR$/public/assets/common.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/contact-1b13569e9620782f423d4cd3ce931750.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.css.gz" afterPath="$PROJECT_DIR$/public/assets/contact.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.js.gz" afterPath="$PROJECT_DIR$/public/assets/contact.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default-3199d4360f822aa52403247078f014f3.css.gz" afterPath="$PROJECT_DIR$/public/assets/default-3199d4360f822aa52403247078f014f3.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default.css.gz" afterPath="$PROJECT_DIR$/public/assets/default.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js.gz" afterPath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header.js.gz" afterPath="$PROJECT_DIR$/public/assets/header.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home.js.gz" afterPath="$PROJECT_DIR$/public/assets/home.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-index-9c15edf4a0218c33bf0d261a20b1dea6.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-index-9c15edf4a0218c33bf0d261a20b1dea6.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-index.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-index.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-8e3eeec9a63c444507aff45ee83b99f1.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-8e3eeec9a63c444507aff45ee83b99f1.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-483dc7943d92dd8bb8f3ba894fe3fa92.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-483dc7943d92dd8bb8f3ba894fe3fa92.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-4d128f8cf30791f990efb14dcd13b61b.css.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-4d128f8cf30791f990efb14dcd13b61b.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.css.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-4856b8d4fb395706be8d907efda018e4.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-4856b8d4fb395706be8d907efda018e4.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.min.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.min-f0be527d7892ef260a72ac74ae956458.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.min-f0be527d7892ef260a72ac74ae956458.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.min.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js.gz" afterPath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message.js.gz" afterPath="$PROJECT_DIR$/public/assets/recruiter-message.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.js.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-3bd646b87d878cd5726c3721f62359dc.css" afterPath="$PROJECT_DIR$/public/assets/application-3bd646b87d878cd5726c3721f62359dc.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-568a971a765679bf586afceda3dc7555.js" afterPath="$PROJECT_DIR$/public/assets/application-568a971a765679bf586afceda3dc7555.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="$PROJECT_DIR$/public/assets/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js" afterPath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script.js" afterPath="$PROJECT_DIR$/public/assets/coffee-script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js" afterPath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box.js" afterPath="$PROJECT_DIR$/public/assets/collapsible-box.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" afterPath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.js" afterPath="$PROJECT_DIR$/public/assets/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default-3199d4360f822aa52403247078f014f3.css" afterPath="$PROJECT_DIR$/public/assets/default-3199d4360f822aa52403247078f014f3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default.css" afterPath="$PROJECT_DIR$/public/assets/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js" afterPath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header.js" afterPath="$PROJECT_DIR$/public/assets/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" afterPath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home.js" afterPath="$PROJECT_DIR$/public/assets/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-index-9c15edf4a0218c33bf0d261a20b1dea6.js" afterPath="$PROJECT_DIR$/public/assets/homecontroller-index-9c15edf4a0218c33bf0d261a20b1dea6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-index.js" afterPath="$PROJECT_DIR$/public/assets/homecontroller-index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-8e3eeec9a63c444507aff45ee83b99f1.js" afterPath="$PROJECT_DIR$/public/assets/jquery-8e3eeec9a63c444507aff45ee83b99f1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-483dc7943d92dd8bb8f3ba894fe3fa92.js" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-483dc7943d92dd8bb8f3ba894fe3fa92.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-4d128f8cf30791f990efb14dcd13b61b.css" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-4d128f8cf30791f990efb14dcd13b61b.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.css" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.js" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-4856b8d4fb395706be8d907efda018e4.js" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-4856b8d4fb395706be8d907efda018e4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.js" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.min.js" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.js" afterPath="$PROJECT_DIR$/public/assets/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.min-f0be527d7892ef260a72ac74ae956458.js" afterPath="$PROJECT_DIR$/public/assets/jquery.min-f0be527d7892ef260a72ac74ae956458.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.min.js" afterPath="$PROJECT_DIR$/public/assets/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs.js" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js" afterPath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message.js" afterPath="$PROJECT_DIR$/public/assets/recruiter-message.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js" afterPath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css" afterPath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.css" afterPath="$PROJECT_DIR$/public/assets/tooltips.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.js" afterPath="$PROJECT_DIR$/public/assets/tooltips.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.geneangelo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366252175503" ignored="false" />
+    <file path="/Dummy.txt" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366253725456" ignored="false" />
     <file path="/default.css.scss" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366157717206" ignored="false" />
     <file path="/_flash_notice.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365904730613" ignored="false" />
     <file path="/flash-notice.js" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365906562052" ignored="false" />
@@ -72,7 +143,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="73" selection-start="3979" selection-end="3979" vertical-scroll-proportion="0.84879035">
+            <state line="87" column="45" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.7580645">
               <folding />
             </state>
           </provider>
@@ -1001,7 +1072,15 @@
       <created>1366252255890</created>
       <updated>1366252255890</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Precompile assets - yet again - missed a few not added to applidation.js">
+      <created>1366253405064</created>
+      <updated>1366253405064</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Precompile assets - yet again - missed a few not added to applidation.js">
+      <created>1366253731758</created>
+      <updated>1366253731758</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1033,11 +1112,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22022955" sideWeight="0.26392573" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25609756" sideWeight="0.69496024" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25609756" sideWeight="0.69496024" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39124668" sideWeight="0.49713057" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2087518" sideWeight="0.33204633" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33204633" sideWeight="0.51506454" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3050398" sideWeight="0.47991392" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3050398" sideWeight="0.47991392" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.46556672" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1250,7 +1329,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="73" selection-start="3979" selection-end="3979" vertical-scroll-proportion="0.84879035">
+        <state line="87" column="45" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.7580645">
           <folding />
         </state>
       </provider>
