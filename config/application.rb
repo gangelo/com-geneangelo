@@ -9,16 +9,14 @@ require 'active_resource/railtie'
 require 'rails/test_unit/railtie'
 require 'sprockets/railtie'
 
-# Auto-require default libraries and those for the current Rails environment.
-Bundler.require :default, Rails.env
-
 if defined?(Bundler)
-
+# Auto-require default libraries and those for the current Rails environment.
+  Bundler.require :default, Rails.env
 
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
-  # If you want your assets lazily compiled in production, use this line
-  # Bundler.require(:default, :assets, Rails.env)
+# If you want your assets lazily compiled in production, use this line
+# Bundler.require(:default, :assets, Rails.env)
 end
 
 module ComGeneangelo
@@ -83,5 +81,10 @@ module ComGeneangelo
 
     # Autoload lib/ folder including all subdirectories
     config.autoload_paths += Dir["#{config.root}/lib/**/"]
+
+    # https://devcenter.heroku.com/articles/rails-asset-pipeline
+    # While precompiling assets, in Rails 3.x, you can prevent initializing your application and connecting
+    # to the database by ensuring that the following line is in your config/application.rb:
+    config.assets.initialize_on_precompile = false
   end
 end
