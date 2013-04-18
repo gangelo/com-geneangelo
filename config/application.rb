@@ -85,6 +85,6 @@ module ComGeneangelo
     config.assets.initialize_on_precompile = false
 
     # Precompile everything.
-    config.assets.precompile += %w[*.js, *.css, *.png *.jpg *.jpeg *.gif]
+    config.assets.precompile += %w[*.js *.css *.png *.jpg *.jpeg *.gif]
   end
 end
