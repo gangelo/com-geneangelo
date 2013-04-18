@@ -24,7 +24,8 @@ class ApplicationController < ActionController::Base
 
   # Sets the background image.
   def set_background_image
-    image_index = rand(0..4)
+    random = Random.new
+    image_index = random.rand(0..4)
 
     @background_image = 'background-' + image_index.to_s + '-top.jpg'
     @background_image_blur = 'background-' + image_index.to_s + '-top-blur.jpg'
