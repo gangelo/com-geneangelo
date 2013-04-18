@@ -65,7 +65,7 @@ module ComGeneangelo
     # Enable the asset pipeline
     config.assets.enabled = true
 
-    # Make sure we can find out theme in our custom directory.
+    # Make sure we can find our theme in our custom directory.
     initializer :after_append_asset_paths,
                 :group => :all,
                 :after => :append_assets_path do
@@ -83,8 +83,5 @@ module ComGeneangelo
     # While precompiling assets, in Rails 3.x, you can prevent initializing your application and connecting
     # to the database by ensuring that the following line is in your config/application.rb:
     config.assets.initialize_on_precompile = false
-
-    # Precompile everything.
-    config.assets.precompile = ['*.js', '*.css']
   end
 end

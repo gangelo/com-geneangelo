@@ -67,4 +67,7 @@ ComGeneangelo::Application.configure do
 
   # Default to address
   ActionMailer::Base.default to: 'Gene M. Angelo, Jr. <me@geneangelo.com>'
+
+  # Precompile everything.
+  config.assets.precompile += %w[*.js, *.css, *.png *.jpg *.jpeg *.gif]
 end
