@@ -2064,13 +2064,13 @@ function slowHideBlurImage() {
         return this.map(function () {
             return this.elements ? v.makeArray(this.elements) : this
         }).filter(function () {
-                return this.name && !this.disabled && (this.checked || an.test(this.nodeName) || un.test(this.type))
-            }).map(function (e, t) {
-                var n = v(this).val();
-                return n == null ? null : v.isArray(n) ? v.map(n, function (e, n) {
-                    return{name: t.name, value: e.replace(on, "\r\n")}
-                }) : {name: t.name, value: n.replace(on, "\r\n")}
-            }).get()
+            return this.name && !this.disabled && (this.checked || an.test(this.nodeName) || un.test(this.type))
+        }).map(function (e, t) {
+            var n = v(this).val();
+            return n == null ? null : v.isArray(n) ? v.map(n, function (e, n) {
+                return{name: t.name, value: e.replace(on, "\r\n")}
+            }) : {name: t.name, value: n.replace(on, "\r\n")}
+        }).get()
     }}), v.param = function (e, n) {
         var r, i = [], s = function (e, t) {
             t = v.isFunction(t) ? t() : t == null ? "" : t, i[i.length] = encodeURIComponent(e) + "=" + encodeURIComponent(t)
@@ -2094,8 +2094,8 @@ function slowHideBlurImage() {
         return a >= 0 && (i = e.slice(a, e.length), e = e.slice(0, a)), v.isFunction(n) ? (r = n, n = t) : n && typeof n == "object" && (s = "POST"), v.ajax({url: e, type: s, dataType: "html", data: n, complete: function (e, t) {
             r && u.each(r, o || [e.responseText, t, e])
         }}).done(function (e) {
-                o = arguments, u.html(i ? v("<div>").append(e.replace(yn, "")).find(i) : e)
-            }), this
+            o = arguments, u.html(i ? v("<div>").append(e.replace(yn, "")).find(i) : e)
+        }), this
     }, v.each("ajaxStart ajaxStop ajaxComplete ajaxError ajaxSuccess ajaxSend".split(" "), function (e, t) {
         v.fn[t] = function (e) {
             return this.on(t, e)
@@ -2783,8 +2783,8 @@ function slowHideBlurImage() {
         this.element.bind("mousedown." + this.widgetName,function (e) {
             return t._mouseDown(e)
         }).bind("click." + this.widgetName, function (n) {
-                if (!0 === e.data(n.target, t.widgetName + ".preventClickEvent"))return e.removeData(n.target, t.widgetName + ".preventClickEvent"), n.stopImmediatePropagation(), !1
-            }), this.started = !1
+            if (!0 === e.data(n.target, t.widgetName + ".preventClickEvent"))return e.removeData(n.target, t.widgetName + ".preventClickEvent"), n.stopImmediatePropagation(), !1
+        }), this.started = !1
     }, _mouseDestroy: function () {
         this.element.unbind("." + this.widgetName), this._mouseMoveDelegate && e(document).unbind("mousemove." + this.widgetName, this._mouseMoveDelegate).unbind("mouseup." + this.widgetName, this._mouseUpDelegate)
     }, _mouseDown: function (t) {
@@ -3143,9 +3143,9 @@ function slowHideBlurImage() {
             if (n.disabled)return;
             e(this).removeClass("ui-resizable-autohide"), t._handles.show()
         }).mouseleave(function () {
-                if (n.disabled)return;
-                t.resizing || (e(this).addClass("ui-resizable-autohide"), t._handles.hide())
-            })), this._mouseInit()
+            if (n.disabled)return;
+            t.resizing || (e(this).addClass("ui-resizable-autohide"), t._handles.hide())
+        })), this._mouseInit()
     }, _destroy: function () {
         this._mouseDestroy();
         var t = function (t) {
@@ -4383,24 +4383,24 @@ function slowHideBlurImage() {
             if (u.disabled)return;
             this === n && e(this).addClass("ui-state-active")
         }).bind("mouseleave" + this.eventNamespace,function () {
-                if (u.disabled)return;
-                e(this).removeClass(c)
-            }).bind("click" + this.eventNamespace, function (e) {
-                u.disabled && (e.preventDefault(), e.stopImmediatePropagation())
-            }), this.element.bind("focus" + this.eventNamespace,function () {
+            if (u.disabled)return;
+            e(this).removeClass(c)
+        }).bind("click" + this.eventNamespace, function (e) {
+            u.disabled && (e.preventDefault(), e.stopImmediatePropagation())
+        }), this.element.bind("focus" + this.eventNamespace,function () {
             t.buttonElement.addClass(h)
         }).bind("blur" + this.eventNamespace, function () {
-                t.buttonElement.removeClass(h)
-            }), a && (this.element.bind("change" + this.eventNamespace, function () {
+            t.buttonElement.removeClass(h)
+        }), a && (this.element.bind("change" + this.eventNamespace, function () {
             if (s)return;
             t.refresh()
         }), this.buttonElement.bind("mousedown" + this.eventNamespace,function (e) {
             if (u.disabled)return;
             s = !1, r = e.pageX, i = e.pageY
         }).bind("mouseup" + this.eventNamespace, function (e) {
-                if (u.disabled)return;
-                if (r !== e.pageX || i !== e.pageY)s = !0
-            })), this.type === "checkbox" ? this.buttonElement.bind("click" + this.eventNamespace, function () {
+            if (u.disabled)return;
+            if (r !== e.pageX || i !== e.pageY)s = !0
+        })), this.type === "checkbox" ? this.buttonElement.bind("click" + this.eventNamespace, function () {
             if (u.disabled || s)return!1;
             e(this).toggleClass("ui-state-active"), t.buttonElement.attr("aria-pressed", t.element[0].checked)
         }) : this.type === "radio" ? this.buttonElement.bind("click" + this.eventNamespace, function () {
@@ -4416,14 +4416,14 @@ function slowHideBlurImage() {
                 n = null
             })
         }).bind("mouseup" + this.eventNamespace,function () {
-                if (u.disabled)return!1;
-                e(this).removeClass("ui-state-active")
-            }).bind("keydown" + this.eventNamespace,function (t) {
-                if (u.disabled)return!1;
-                (t.keyCode === e.ui.keyCode.SPACE || t.keyCode === e.ui.keyCode.ENTER) && e(this).addClass("ui-state-active")
-            }).bind("keyup" + this.eventNamespace, function () {
-                e(this).removeClass("ui-state-active")
-            }), this.buttonElement.is("a") && this.buttonElement.keyup(function (t) {
+            if (u.disabled)return!1;
+            e(this).removeClass("ui-state-active")
+        }).bind("keydown" + this.eventNamespace,function (t) {
+            if (u.disabled)return!1;
+            (t.keyCode === e.ui.keyCode.SPACE || t.keyCode === e.ui.keyCode.ENTER) && e(this).addClass("ui-state-active")
+        }).bind("keyup" + this.eventNamespace, function () {
+            e(this).removeClass("ui-state-active")
+        }), this.buttonElement.is("a") && this.buttonElement.keyup(function (t) {
             t.keyCode === e.ui.keyCode.SPACE && e(this).click()
         })), this._setOption("disabled", u.disabled), this._resetButton()
     }, _determineButtonType: function () {
@@ -4478,8 +4478,8 @@ function slowHideBlurImage() {
         return e.delegate(t, "mouseout",function () {
             $(this).removeClass("ui-state-hover"), this.className.indexOf("ui-datepicker-prev") != -1 && $(this).removeClass("ui-datepicker-prev-hover"), this.className.indexOf("ui-datepicker-next") != -1 && $(this).removeClass("ui-datepicker-next-hover")
         }).delegate(t, "mouseover", function () {
-                $.datepicker._isDisabledDatepicker(instActive.inline ? e.parent()[0] : instActive.input[0]) || ($(this).parents(".ui-datepicker-calendar").find("a").removeClass("ui-state-hover"), $(this).addClass("ui-state-hover"), this.className.indexOf("ui-datepicker-prev") != -1 && $(this).addClass("ui-datepicker-prev-hover"), this.className.indexOf("ui-datepicker-next") != -1 && $(this).addClass("ui-datepicker-next-hover"))
-            })
+            $.datepicker._isDisabledDatepicker(instActive.inline ? e.parent()[0] : instActive.input[0]) || ($(this).parents(".ui-datepicker-calendar").find("a").removeClass("ui-state-hover"), $(this).addClass("ui-state-hover"), this.className.indexOf("ui-datepicker-prev") != -1 && $(this).addClass("ui-datepicker-prev-hover"), this.className.indexOf("ui-datepicker-next") != -1 && $(this).addClass("ui-datepicker-next-hover"))
+        })
     }
 
     function extendRemove(e, t) {
@@ -4523,8 +4523,8 @@ function slowHideBlurImage() {
         this._attachments(n, t), n.addClass(this.markerClassName).keydown(this._doKeyDown).keypress(this._doKeyPress).keyup(this._doKeyUp).bind("setData.datepicker",function (e, n, r) {
             t.settings[n] = r
         }).bind("getData.datepicker", function (e, n) {
-                return this._get(t, n)
-            }), this._autoSize(t), $.data(e, PROP_NAME, t), t.settings.disabled && this._disableDatepicker(e)
+            return this._get(t, n)
+        }), this._autoSize(t), $.data(e, PROP_NAME, t), t.settings.disabled && this._disableDatepicker(e)
     }, _attachments: function (e, t) {
         var n = this._get(t, "appendText"), r = this._get(t, "isRTL");
         t.append && t.append.remove(), n && (t.append = $('<span class="' + this._appendClass + '">' + n + "</span>"), e[r ? "before" : "after"](t.append)), e.unbind("focus", this._showDatepicker), t.trigger && t.trigger.remove();
@@ -4555,8 +4555,8 @@ function slowHideBlurImage() {
         n.addClass(this.markerClassName).append(t.dpDiv).bind("setData.datepicker",function (e, n, r) {
             t.settings[n] = r
         }).bind("getData.datepicker", function (e, n) {
-                return this._get(t, n)
-            }), $.data(e, PROP_NAME, t), this._setDate(t, this._getDefaultDate(t), !0), this._updateDatepicker(t), this._updateAlternate(t), t.settings.disabled && this._disableDatepicker(e), t.dpDiv.css("display", "block")
+            return this._get(t, n)
+        }), $.data(e, PROP_NAME, t), this._setDate(t, this._getDefaultDate(t), !0), this._updateDatepicker(t), this._updateAlternate(t), t.settings.disabled && this._disableDatepicker(e), t.dpDiv.css("display", "block")
     }, _dialogDatepicker: function (e, t, n, r, i) {
         var s = this._dialogInst;
         if (!s) {
@@ -4825,8 +4825,8 @@ function slowHideBlurImage() {
                     [t, e]
                 ]
             }).sort(function (e, t) {
-                    return-(e[1].length - t[1].length)
-                }), s = -1;
+                return-(e[1].length - t[1].length)
+            }), s = -1;
             $.each(i, function (e, n) {
                 var r = n[1];
                 if (t.substr(g, r.length).toLowerCase() == r.toLowerCase())return s = n[0], g += r.length, !1
@@ -5165,8 +5165,8 @@ function slowHideBlurImage() {
         s = (this.uiDialog = e("<div>")).addClass(n + r.dialogClass).css({display: "none", outline: 0, zIndex: r.zIndex}).attr("tabIndex", -1).keydown(function (n) {
             r.closeOnEscape && !n.isDefaultPrevented() && n.keyCode && n.keyCode === e.ui.keyCode.ESCAPE && (t.close(n), n.preventDefault())
         }).mousedown(function (e) {
-                t.moveToTop(!1, e)
-            }).appendTo("body"), this.element.show().removeAttr("title").addClass("ui-dialog-content ui-widget-content").appendTo(s), o = (this.uiDialogTitlebar = e("<div>")).addClass("ui-dialog-titlebar  ui-widget-header  ui-corner-all  ui-helper-clearfix").bind("mousedown",function () {
+            t.moveToTop(!1, e)
+        }).appendTo("body"), this.element.show().removeAttr("title").addClass("ui-dialog-content ui-widget-content").appendTo(s), o = (this.uiDialogTitlebar = e("<div>")).addClass("ui-dialog-titlebar  ui-widget-header  ui-corner-all  ui-helper-clearfix").bind("mousedown",function () {
             s.focus()
         }).prependTo(s), u = e("<a href='#'></a>").addClass("ui-dialog-titlebar-close  ui-corner-all").attr("role", "button").click(function (e) {
             e.preventDefault(), t.close(e)
@@ -5715,14 +5715,14 @@ function slowHideBlurImage() {
         this.handles = s.add(e(u.join("")).appendTo(this.element)), this.handle = this.handles.eq(0), this.handles.add(this.range).filter("a").click(function (e) {
             e.preventDefault()
         }).mouseenter(function () {
-                i.disabled || e(this).addClass("ui-state-hover")
-            }).mouseleave(function () {
-                e(this).removeClass("ui-state-hover")
-            }).focus(function () {
-                i.disabled ? e(this).blur() : (e(".ui-slider .ui-state-focus").removeClass("ui-state-focus"), e(this).addClass("ui-state-focus"))
-            }).blur(function () {
-                e(this).removeClass("ui-state-focus")
-            }), this.handles.each(function (t) {
+            i.disabled || e(this).addClass("ui-state-hover")
+        }).mouseleave(function () {
+            e(this).removeClass("ui-state-hover")
+        }).focus(function () {
+            i.disabled ? e(this).blur() : (e(".ui-slider .ui-state-focus").removeClass("ui-state-focus"), e(this).addClass("ui-state-focus"))
+        }).blur(function () {
+            e(this).removeClass("ui-state-focus")
+        }), this.handles.each(function (t) {
             e(this).data("ui-slider-handle-index", t)
         }), this._on(this.handles, {keydown: function (t) {
             var r, i, s, o, u = e(t.target).data("ui-slider-handle-index");
@@ -6017,8 +6017,8 @@ function slowHideBlurImage() {
         this.running = !1, this.element.addClass("ui-tabs ui-widget ui-widget-content ui-corner-all").toggleClass("ui-tabs-collapsible", n.collapsible).delegate(".ui-tabs-nav > li", "mousedown" + this.eventNamespace,function (t) {
             e(this).is(".ui-state-disabled") && t.preventDefault()
         }).delegate(".ui-tabs-anchor", "focus" + this.eventNamespace, function () {
-                e(this).closest("li").is(".ui-state-disabled") && this.blur()
-            }), this._processTabs();
+            e(this).closest("li").is(".ui-state-disabled") && this.blur()
+        }), this._processTabs();
         if (r === null) {
             i && this.tabs.each(function (t, n) {
                 if (e(n).attr("aria-controls") === i)return r = t, !1
@@ -6194,10 +6194,10 @@ function slowHideBlurImage() {
                 u.html(e), r._trigger("load", n, a)
             }, 1)
         }).complete(function (e, t) {
-                setTimeout(function () {
-                    t === "abort" && r.panels.stop(!1, !0), i.removeClass("ui-tabs-loading"), u.removeAttr("aria-busy"), e === r.xhr && delete r.xhr
-                }, 1)
-            }))
+            setTimeout(function () {
+                t === "abort" && r.panels.stop(!1, !0), i.removeClass("ui-tabs-loading"), u.removeAttr("aria-busy"), e === r.xhr && delete r.xhr
+            }, 1)
+        }))
     }, _ajaxSettings: function (t, n, r) {
         var i = this;
         return{url: t.attr("href"), beforeSend: function (t, s) {
@@ -6715,8 +6715,8 @@ function slowHideBlurImage() {
         this.element.bind("mousedown." + this.widgetName,function (e) {
             return t._mouseDown(e)
         }).bind("click." + this.widgetName, function (n) {
-                if (!0 === e.data(n.target, t.widgetName + ".preventClickEvent"))return e.removeData(n.target, t.widgetName + ".preventClickEvent"), n.stopImmediatePropagation(), !1
-            }), this.started = !1
+            if (!0 === e.data(n.target, t.widgetName + ".preventClickEvent"))return e.removeData(n.target, t.widgetName + ".preventClickEvent"), n.stopImmediatePropagation(), !1
+        }), this.started = !1
     }, _mouseDestroy: function () {
         this.element.unbind("." + this.widgetName), this._mouseMoveDelegate && e(document).unbind("mousemove." + this.widgetName, this._mouseMoveDelegate).unbind("mouseup." + this.widgetName, this._mouseUpDelegate)
     }, _mouseDown: function (t) {
@@ -7147,9 +7147,9 @@ function slowHideBlurImage() {
             if (n.disabled)return;
             e(this).removeClass("ui-resizable-autohide"), t._handles.show()
         }).mouseleave(function () {
-                if (n.disabled)return;
-                t.resizing || (e(this).addClass("ui-resizable-autohide"), t._handles.hide())
-            })), this._mouseInit()
+            if (n.disabled)return;
+            t.resizing || (e(this).addClass("ui-resizable-autohide"), t._handles.hide())
+        })), this._mouseInit()
     }, _destroy: function () {
         this._mouseDestroy();
         var t = function (t) {
@@ -8048,24 +8048,24 @@ function slowHideBlurImage() {
             if (u.disabled)return;
             this === n && e(this).addClass("ui-state-active")
         }).bind("mouseleave" + this.eventNamespace,function () {
-                if (u.disabled)return;
-                e(this).removeClass(c)
-            }).bind("click" + this.eventNamespace, function (e) {
-                u.disabled && (e.preventDefault(), e.stopImmediatePropagation())
-            }), this.element.bind("focus" + this.eventNamespace,function () {
+            if (u.disabled)return;
+            e(this).removeClass(c)
+        }).bind("click" + this.eventNamespace, function (e) {
+            u.disabled && (e.preventDefault(), e.stopImmediatePropagation())
+        }), this.element.bind("focus" + this.eventNamespace,function () {
             t.buttonElement.addClass(h)
         }).bind("blur" + this.eventNamespace, function () {
-                t.buttonElement.removeClass(h)
-            }), a && (this.element.bind("change" + this.eventNamespace, function () {
+            t.buttonElement.removeClass(h)
+        }), a && (this.element.bind("change" + this.eventNamespace, function () {
             if (s)return;
             t.refresh()
         }), this.buttonElement.bind("mousedown" + this.eventNamespace,function (e) {
             if (u.disabled)return;
             s = !1, r = e.pageX, i = e.pageY
         }).bind("mouseup" + this.eventNamespace, function (e) {
-                if (u.disabled)return;
-                if (r !== e.pageX || i !== e.pageY)s = !0
-            })), this.type === "checkbox" ? this.buttonElement.bind("click" + this.eventNamespace, function () {
+            if (u.disabled)return;
+            if (r !== e.pageX || i !== e.pageY)s = !0
+        })), this.type === "checkbox" ? this.buttonElement.bind("click" + this.eventNamespace, function () {
             if (u.disabled || s)return!1;
             e(this).toggleClass("ui-state-active"), t.buttonElement.attr("aria-pressed", t.element[0].checked)
         }) : this.type === "radio" ? this.buttonElement.bind("click" + this.eventNamespace, function () {
@@ -8081,14 +8081,14 @@ function slowHideBlurImage() {
                 n = null
             })
         }).bind("mouseup" + this.eventNamespace,function () {
-                if (u.disabled)return!1;
-                e(this).removeClass("ui-state-active")
-            }).bind("keydown" + this.eventNamespace,function (t) {
-                if (u.disabled)return!1;
-                (t.keyCode === e.ui.keyCode.SPACE || t.keyCode === e.ui.keyCode.ENTER) && e(this).addClass("ui-state-active")
-            }).bind("keyup" + this.eventNamespace, function () {
-                e(this).removeClass("ui-state-active")
-            }), this.buttonElement.is("a") && this.buttonElement.keyup(function (t) {
+            if (u.disabled)return!1;
+            e(this).removeClass("ui-state-active")
+        }).bind("keydown" + this.eventNamespace,function (t) {
+            if (u.disabled)return!1;
+            (t.keyCode === e.ui.keyCode.SPACE || t.keyCode === e.ui.keyCode.ENTER) && e(this).addClass("ui-state-active")
+        }).bind("keyup" + this.eventNamespace, function () {
+            e(this).removeClass("ui-state-active")
+        }), this.buttonElement.is("a") && this.buttonElement.keyup(function (t) {
             t.keyCode === e.ui.keyCode.SPACE && e(this).click()
         })), this._setOption("disabled", u.disabled), this._resetButton()
     }, _determineButtonType: function () {
@@ -8143,8 +8143,8 @@ function slowHideBlurImage() {
         return e.delegate(t, "mouseout",function () {
             $(this).removeClass("ui-state-hover"), this.className.indexOf("ui-datepicker-prev") != -1 && $(this).removeClass("ui-datepicker-prev-hover"), this.className.indexOf("ui-datepicker-next") != -1 && $(this).removeClass("ui-datepicker-next-hover")
         }).delegate(t, "mouseover", function () {
-                $.datepicker._isDisabledDatepicker(instActive.inline ? e.parent()[0] : instActive.input[0]) || ($(this).parents(".ui-datepicker-calendar").find("a").removeClass("ui-state-hover"), $(this).addClass("ui-state-hover"), this.className.indexOf("ui-datepicker-prev") != -1 && $(this).addClass("ui-datepicker-prev-hover"), this.className.indexOf("ui-datepicker-next") != -1 && $(this).addClass("ui-datepicker-next-hover"))
-            })
+            $.datepicker._isDisabledDatepicker(instActive.inline ? e.parent()[0] : instActive.input[0]) || ($(this).parents(".ui-datepicker-calendar").find("a").removeClass("ui-state-hover"), $(this).addClass("ui-state-hover"), this.className.indexOf("ui-datepicker-prev") != -1 && $(this).addClass("ui-datepicker-prev-hover"), this.className.indexOf("ui-datepicker-next") != -1 && $(this).addClass("ui-datepicker-next-hover"))
+        })
     }
 
     function extendRemove(e, t) {
@@ -8188,8 +8188,8 @@ function slowHideBlurImage() {
         this._attachments(n, t), n.addClass(this.markerClassName).keydown(this._doKeyDown).keypress(this._doKeyPress).keyup(this._doKeyUp).bind("setData.datepicker",function (e, n, r) {
             t.settings[n] = r
         }).bind("getData.datepicker", function (e, n) {
-                return this._get(t, n)
-            }), this._autoSize(t), $.data(e, PROP_NAME, t), t.settings.disabled && this._disableDatepicker(e)
+            return this._get(t, n)
+        }), this._autoSize(t), $.data(e, PROP_NAME, t), t.settings.disabled && this._disableDatepicker(e)
     }, _attachments: function (e, t) {
         var n = this._get(t, "appendText"), r = this._get(t, "isRTL");
         t.append && t.append.remove(), n && (t.append = $('<span class="' + this._appendClass + '">' + n + "</span>"), e[r ? "before" : "after"](t.append)), e.unbind("focus", this._showDatepicker), t.trigger && t.trigger.remove();
@@ -8220,8 +8220,8 @@ function slowHideBlurImage() {
         n.addClass(this.markerClassName).append(t.dpDiv).bind("setData.datepicker",function (e, n, r) {
             t.settings[n] = r
         }).bind("getData.datepicker", function (e, n) {
-                return this._get(t, n)
-            }), $.data(e, PROP_NAME, t), this._setDate(t, this._getDefaultDate(t), !0), this._updateDatepicker(t), this._updateAlternate(t), t.settings.disabled && this._disableDatepicker(e), t.dpDiv.css("display", "block")
+            return this._get(t, n)
+        }), $.data(e, PROP_NAME, t), this._setDate(t, this._getDefaultDate(t), !0), this._updateDatepicker(t), this._updateAlternate(t), t.settings.disabled && this._disableDatepicker(e), t.dpDiv.css("display", "block")
     }, _dialogDatepicker: function (e, t, n, r, i) {
         var s = this._dialogInst;
         if (!s) {
@@ -8490,8 +8490,8 @@ function slowHideBlurImage() {
                     [t, e]
                 ]
             }).sort(function (e, t) {
-                    return-(e[1].length - t[1].length)
-                }), s = -1;
+                return-(e[1].length - t[1].length)
+            }), s = -1;
             $.each(i, function (e, n) {
                 var r = n[1];
                 if (t.substr(g, r.length).toLowerCase() == r.toLowerCase())return s = n[0], g += r.length, !1
@@ -8830,8 +8830,8 @@ function slowHideBlurImage() {
         s = (this.uiDialog = e("<div>")).addClass(n + r.dialogClass).css({display: "none", outline: 0, zIndex: r.zIndex}).attr("tabIndex", -1).keydown(function (n) {
             r.closeOnEscape && !n.isDefaultPrevented() && n.keyCode && n.keyCode === e.ui.keyCode.ESCAPE && (t.close(n), n.preventDefault())
         }).mousedown(function (e) {
-                t.moveToTop(!1, e)
-            }).appendTo("body"), this.element.show().removeAttr("title").addClass("ui-dialog-content ui-widget-content").appendTo(s), o = (this.uiDialogTitlebar = e("<div>")).addClass("ui-dialog-titlebar  ui-widget-header  ui-corner-all  ui-helper-clearfix").bind("mousedown",function () {
+            t.moveToTop(!1, e)
+        }).appendTo("body"), this.element.show().removeAttr("title").addClass("ui-dialog-content ui-widget-content").appendTo(s), o = (this.uiDialogTitlebar = e("<div>")).addClass("ui-dialog-titlebar  ui-widget-header  ui-corner-all  ui-helper-clearfix").bind("mousedown",function () {
             s.focus()
         }).prependTo(s), u = e("<a href='#'></a>").addClass("ui-dialog-titlebar-close  ui-corner-all").attr("role", "button").click(function (e) {
             e.preventDefault(), t.close(e)
@@ -9182,14 +9182,14 @@ function slowHideBlurImage() {
         this.handles = s.add(e(u.join("")).appendTo(this.element)), this.handle = this.handles.eq(0), this.handles.add(this.range).filter("a").click(function (e) {
             e.preventDefault()
         }).mouseenter(function () {
-                i.disabled || e(this).addClass("ui-state-hover")
-            }).mouseleave(function () {
-                e(this).removeClass("ui-state-hover")
-            }).focus(function () {
-                i.disabled ? e(this).blur() : (e(".ui-slider .ui-state-focus").removeClass("ui-state-focus"), e(this).addClass("ui-state-focus"))
-            }).blur(function () {
-                e(this).removeClass("ui-state-focus")
-            }), this.handles.each(function (t) {
+            i.disabled || e(this).addClass("ui-state-hover")
+        }).mouseleave(function () {
+            e(this).removeClass("ui-state-hover")
+        }).focus(function () {
+            i.disabled ? e(this).blur() : (e(".ui-slider .ui-state-focus").removeClass("ui-state-focus"), e(this).addClass("ui-state-focus"))
+        }).blur(function () {
+            e(this).removeClass("ui-state-focus")
+        }), this.handles.each(function (t) {
             e(this).data("ui-slider-handle-index", t)
         }), this._on(this.handles, {keydown: function (t) {
             var r, i, s, o, u = e(t.target).data("ui-slider-handle-index");
@@ -9485,8 +9485,8 @@ function slowHideBlurImage() {
         this.running = !1, this.element.addClass("ui-tabs ui-widget ui-widget-content ui-corner-all").toggleClass("ui-tabs-collapsible", n.collapsible).delegate(".ui-tabs-nav > li", "mousedown" + this.eventNamespace,function (t) {
             e(this).is(".ui-state-disabled") && t.preventDefault()
         }).delegate(".ui-tabs-anchor", "focus" + this.eventNamespace, function () {
-                e(this).closest("li").is(".ui-state-disabled") && this.blur()
-            }), this._processTabs();
+            e(this).closest("li").is(".ui-state-disabled") && this.blur()
+        }), this._processTabs();
         if (r === null) {
             i && this.tabs.each(function (t, n) {
                 if (e(n).attr("aria-controls") === i)return r = t, !1
@@ -9662,10 +9662,10 @@ function slowHideBlurImage() {
                 u.html(e), r._trigger("load", n, a)
             }, 1)
         }).complete(function (e, t) {
-                setTimeout(function () {
-                    t === "abort" && r.panels.stop(!1, !0), i.removeClass("ui-tabs-loading"), u.removeAttr("aria-busy"), e === r.xhr && delete r.xhr
-                }, 1)
-            }))
+            setTimeout(function () {
+                t === "abort" && r.panels.stop(!1, !0), i.removeClass("ui-tabs-loading"), u.removeAttr("aria-busy"), e === r.xhr && delete r.xhr
+            }, 1)
+        }))
     }, _ajaxSettings: function (t, n, r) {
         var i = this;
         return{url: t.attr("href"), beforeSend: function (t, s) {
