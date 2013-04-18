@@ -83,5 +83,8 @@ module ComGeneangelo
     # While precompiling assets, in Rails 3.x, you can prevent initializing your application and connecting
     # to the database by ensuring that the following line is in your config/application.rb:
     config.assets.initialize_on_precompile = false
+
+    # Precompile everything.
+    config.assets.precompile += %w[*.js, *.css, *.png *.jpg *.jpeg *.gif]
   end
 end
