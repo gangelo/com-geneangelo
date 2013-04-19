@@ -34,4 +34,6 @@ ComGeneangelo::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  ActionMailer::Base.perform_deliveries = false
 end

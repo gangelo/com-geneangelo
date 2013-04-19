@@ -5,7 +5,6 @@ require File.expand_path('../application', __FILE__)
 ComGeneangelo::Application.initialize!
 
 ActionMailer::Base.raise_delivery_errors = true
-ActionMailer::Base.perform_deliveries = true
 ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
