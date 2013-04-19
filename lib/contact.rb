@@ -5,16 +5,21 @@ class Contact
   include EmailModule
   include TelephoneNumberModule
 
-  def initialize(from, to, subject, message, content_type="text/html", telephone_number=nil, cc=nil, bcc=nil)
+  def initialize(from, to, subject, message, telephone_number=nil, cc=nil, bcc=nil)
     @from = from
     @to = to
     @subject = subject
     @message = message
 
     # Params with defaults.
-    @content_type = content_type
     @telephone_number = telephone_number
     @cc = cc
     @bcc = bcc
+  end
+
+  def to_hash
+    hash = {}
+    self.instance_variables.each { |var| hash[var.to_s.delete("@")] = self.instance_variable_get(var) }
+    hash
   end
 end

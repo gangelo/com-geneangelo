@@ -4,8 +4,7 @@ module EmailModule
                 :cc,
                 :bcc,
                 :subject,
-                :message,
-                :content_type # text/html, etc.
+                :message
 
   def has_from?
     not @from.nil?
@@ -29,9 +28,5 @@ module EmailModule
 
   def has_message?
     not @message.nil?
-  end
-
-  def has_content_type?
-    not @content_type.nil?
   end
 end

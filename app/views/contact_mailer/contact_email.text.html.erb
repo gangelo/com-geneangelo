@@ -10,10 +10,22 @@
   You've received a message from: <%= message.from.to_s.html_safe unless message.from.nil? %>
 </p>
 
+<h2>Subject</h2>
+
+<p>
+  <%= @subject %>
+</p>
+
 <h2>Message</h2>
 
 <p>
-  <%= @contact_model.message %>
+  <%= @message %>
+</p>
+
+<h2>Telephone Number</h2>
+
+<p>
+  <%= @telephone_number %>
 </p>
 </body>
 </html>
