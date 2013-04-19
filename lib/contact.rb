@@ -5,11 +5,11 @@ class Contact
   include EmailModule
   include TelephoneNumberModule
 
-  def initialize(from, to, subject, message, telephone_number=nil, cc=nil, bcc=nil)
+  def initialize(from, to, subject, message_body, telephone_number=nil, cc=nil, bcc=nil)
     @from = from
     @to = to
     @subject = subject
-    @message = message
+    @message_body = message_body
 
     # Params with defaults.
     @telephone_number = telephone_number

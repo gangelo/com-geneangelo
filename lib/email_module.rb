@@ -4,7 +4,7 @@ module EmailModule
                 :cc,
                 :bcc,
                 :subject,
-                :message
+                :message_body
 
   def has_from?
     not @from.nil?
@@ -27,6 +27,6 @@ module EmailModule
   end
 
   def has_message?
-    not @message.nil?
+    not @message_body.nil?
   end
 end

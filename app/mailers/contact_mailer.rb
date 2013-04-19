@@ -5,7 +5,7 @@ class ContactMailer < ActionMailer::Base
   attr_accessor :from,
                 :to,
                 :subject,
-                :message,
+                :message_body,
                 :telephone_number,
                 :cc,
                 :bcc
@@ -13,9 +13,10 @@ class ContactMailer < ActionMailer::Base
   # @param [Contact] contact
   def contact_email(contact)
     initialize_instance_vars(contact)
-    #to = contact.to.email_address_with_name unless contact.to.nil? and not contact.to.respond_to?(:email_address_with_name)
-    #to ||= ActionMailer::Base.default[:to]
 =begin
+    to = contact.to.email_address_with_name unless contact.to.nil? and not contact.to.respond_to?(:email_address_with_name)
+    to ||= ActionMailer::Base.default[:to]
+
     mail(from: contact.from.email_address_with_name,
          to: to,
          subject: contact.subject,
@@ -23,10 +24,11 @@ class ContactMailer < ActionMailer::Base
          cc: contact.cc,
          bcc: contact.bcc)
 =end
+
     mail(from: @from,
          to: @to,
          subject: @subject,
-         message: @message,
+         message: @message_body,
          cc: @cc,
          bcc: @bcc)
   end
