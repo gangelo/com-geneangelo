@@ -27,7 +27,6 @@ class ContactController < ApplicationController
       rescue Timeout::Error
         flash.now[:error] = "Yikes! Error sending email. A Timeout occurred.  Please try again later."
         render :new
-        return
       rescue Net::SMTPAuthenticationError,
           Net::SMTPServerBusy,
           Net::SMTPSyntaxError,
@@ -35,13 +34,12 @@ class ContactController < ApplicationController
           Net::SMTPUnknownError
         flash.now[:error] = "Yikes! There was a problem sending your mail."
         render :new
-        return
       rescue Exception
         flash.now[:error] = "Yikes! There was a problem sending your mail: An unexpected error occurred."
         render :new
-        return
+      else
+        redirect_to root_path, {notice: "Yippie! Your email's on it's way!  Thank you!"}
       end
-      redirect_to root_path, {notice: "Yippie! Your email's on it's way!  Thank you!"}
     else
       # TODO: The below is to handle a bug that doesn't display notices when render is used.
       # See http://stackoverflow.com/questions/4770762/how-to-render-edit-view-and-post-flash-message-in-rails3
