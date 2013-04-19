@@ -46,13 +46,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.js.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contact_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb" afterPath="$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.geneangelo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366336763681" ignored="false" />
+    <file path="/Dummy.txt" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366337785535" ignored="false" />
     <file path="/default.css.scss" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366331124993" ignored="false" />
     <file path="/_flash_notice.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366331104192" ignored="false" />
     <file path="/flash-notice.js" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365906562052" ignored="false" />
@@ -64,7 +64,7 @@
     <file path="/fragment.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366329407918" ignored="false" />
     <file path="/_form_key.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365947824513" ignored="false" />
     <file path="/_footer.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365948812781" ignored="false" />
-    <file path="/contact_email.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366046265733" ignored="false" />
+    <file path="/contact_email.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366338197143" ignored="false" />
     <file path="/contact_mailer_test.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366071053368" ignored="false" />
     <file path="/contact_mailer.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366329241071" ignored="false" />
     <file path="/contact_module.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366032251721" ignored="false" />
@@ -110,37 +110,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="70" selection-start="2399" selection-end="2399" vertical-scroll-proportion="-12.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flash.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/flash.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="49" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+            <state line="18" column="32" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contact_email.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="72" selection-start="306" selection-end="306" vertical-scroll-proportion="0.34957626">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/contact_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="86" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.7258065">
+            <state line="39" column="86" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,17 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="51" selection-start="188" selection-end="233" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +188,6 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/app/mailers/contact_mailer.rb" />
-        <option value="$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contact_mailer/contact_email.text.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_flash_notice.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
@@ -217,8 +196,9 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/common.js" />
         <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/flash.js" />
-        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb" />
       </list>
     </option>
   </component>
@@ -1287,7 +1267,11 @@
       <created>1366336767726</created>
       <updated>1366336767726</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add support for SendGrid Heroku Addon, as sending emails via godaddy smtp sucks.">
+      <created>1366337790418</created>
+      <updated>1366337790418</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1468,13 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact/create.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1505,20 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="714" selection-end="714" vertical-scroll-proportion="-10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="70" selection-start="2399" selection-end="2399" vertical-scroll-proportion="-12.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="51" selection-start="188" selection-end="233" vertical-scroll-proportion="0.0">
@@ -1533,16 +1496,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/contact_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+        <state line="39" column="86" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contact_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="86" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.7258065">
+        <state line="17" column="8" selection-start="714" selection-end="714" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="70" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.67320263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="72" selection-start="306" selection-end="306" vertical-scroll-proportion="0.34957626">
           <folding />
         </state>
       </provider>

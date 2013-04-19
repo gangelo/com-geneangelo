@@ -18,4 +18,4 @@ ActionMailer::Base.smtp_settings = {
 
 
 # Default to address
-ActionMailer::Base.default to: 'Gene M. Angelo, Jr. <me@geneangelo.com>'
+ActionMailer::Base.default to: '"Gene M. Angelo, Jr." <me@geneangelo.com>'
