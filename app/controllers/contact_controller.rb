@@ -20,7 +20,7 @@ class ContactController < ApplicationController
       from = EmailAddress.new(@contact_model.email_address, @contact_model.first_name, @contact_model.last_name)
       subject = @contact_model.subject
       message = @contact_model.message
-      contact = Contact.new(from, nil, subject, message, "text/html")
+      contact = Contact.new(from, nil, subject, message)
 
       begin
         ContactMailer.contact_email(contact).deliver

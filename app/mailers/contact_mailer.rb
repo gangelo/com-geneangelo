@@ -10,7 +10,6 @@ class ContactMailer < ActionMailer::Base
          to: to,
          subject: contact.subject,
          message: contact.message,
-         #content_type: contact.content_type,
          cc: contact.cc,
          bcc: contact.bcc)
   end
