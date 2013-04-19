@@ -2,5 +2,6 @@ Email from www.geneangelo.com
 
 You've received a message from: <%= message.from.to_s.html_safe unless message.from.nil? %>
 
-Subject:
-Message:
+Subject: <%= @subject %>
+Message: <%= @message_body %>
+Telephone: <%= @telephone_number %>
