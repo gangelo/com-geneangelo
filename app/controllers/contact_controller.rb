@@ -36,8 +36,8 @@ class ContactController < ApplicationController
         flash.now[:error] = "Yikes! There was a problem sending your mail."
         render :new
         return
-      rescue Exception => e
-        flash.now[:error] = "Yikes! There was a problem sending your mail: #{e.message}."
+      rescue Exception
+        flash.now[:error] = "Yikes! There was a problem sending your mail: An unexpected error occurred."
         render :new
         return
       end

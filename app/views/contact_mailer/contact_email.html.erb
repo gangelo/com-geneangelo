@@ -5,8 +5,8 @@
 </head>
 <body>
 <h1>Email from www.geneangelo.com</h1>
-From: <%= message.from.html_safe unless message.from.nil? %>
-To: <%= message.to.html_safe unless message.to.nil? %>
+From: <%= message.from.to_s.html_safe unless message.from.nil? %>
+To: <%= message.to.to_s.html_safe unless message.to.nil? %>
 <%= message.body %>
 </body>
 </html>
