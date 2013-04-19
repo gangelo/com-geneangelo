@@ -13,26 +13,29 @@
       var backgroundImageBottom = "<%= image_path(@background_image_bottom) %>";
       var backgroundImageBlurBottom = "<%= image_path(@background_image_blur_bottom) %>";
 
-      <% if flash[:notice] || flash[:alert] %>
-          $(document).ready(function () {
-          setTimeout(function() {
-          $('.flash-notice-container').slideDown({
-          // complete:function() { slideUp($(this)); }
-          });
-          }, 250);
-          });
-
-          /*
-          function slideUp($this) {
-          setTimeout(function() {
-          $this.slideUp();
-          }, 3500);
-          }
-          */
-      <% end %>
+      $(document).ready(function () {
+        var flash = <%= {:alert => !flash[:alert].nil?, :notice => !flash[:notice].nil?, :error => !flash[:error].nil? }.to_json.html_safe %>;
+        flash.has_flash_notice = function() { return (flash.notice || flash.alert || flash.error); };
+        if (flash.has_flash_notice) {
+            doFlash(flash);
+        }
+      });
   <% end -%>
 
   <%= yield :head %>
+
+  <%= javascript_tag do -%>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-24510333-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  <% end %>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -42,7 +45,7 @@
 <div class="main-container">
 
   <div class="genemangelojr-header">
-    <h1>Gene M. Angelo, Jr.</h1>
+    <h1><%= @title %></h1>
     <%= image_tag("mail-white-on-black.png", :alt => "Contact", :style => "vertical-align:middle;") %>
     <%= @contact_email %>
   </div>

@@ -47,7 +47,7 @@
       <%= f.label :message, ContactModel.property_labels[:message], :class => "form-label required" %>
       <%= f.text_area :message, size: "60x12", :class => "form-field", maxlength: 2048, placeholder: "Type your message here" %>
 
-      <%= f.submit("Submit", :style => "display:block;") %>
+      <%= f.submit("Submit", :style => "display:block;", :onclick => "flashHide();") %>
   <% end %>
 
   <%= render "shared/form_key" %>

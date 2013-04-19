@@ -34,7 +34,4 @@ ComGeneangelo::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
-
-  # Default to address
-  ActionMailer::Base.default to: 'Gene M. Angelo, Jr. <me@geneangelo.com>'
 end

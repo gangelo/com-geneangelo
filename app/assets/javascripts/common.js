@@ -5,3 +5,7 @@
  * Time: 7:31 PM
  * To change this template use File | Settings | File Templates.
  */
+
+function jumpToTop() {
+    $('html, body').animate({scrollTop: 0}, 100);
+}

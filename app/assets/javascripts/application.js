@@ -18,4 +18,6 @@
 //= require recruiter-message
 //= require tooltips
 //= require jquery-ui-1.9.2.custom
+//= require flash
+//= require common
 

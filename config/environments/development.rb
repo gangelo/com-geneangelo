@@ -38,7 +38,4 @@ ComGeneangelo::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
-
-  # Default to address
-  ActionMailer::Base.default to: 'Gene M. Angelo, Jr. <me@geneangelo.com>'
 end

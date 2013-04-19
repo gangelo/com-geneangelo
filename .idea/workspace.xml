@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7b2799-56e1-4754-b750-6661ae453c98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-3bd646b87d878cd5726c3721f62359dc.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-3bd646b87d878cd5726c3721f62359dc.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-568a971a765679bf586afceda3dc7555.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-568a971a765679bf586afceda3dc7555.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-354b27e3724518c27123616c09ac3373.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b4f3567699700ecb4f81a1c39d80e377.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common-d1d8580f7c8f56bab48101971a22bf6b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-c5d593923963f6a10abed772ffa490f0.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/flash-21ed0aacd9a618e31ef6b6870e98a46f.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/flash.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-354b27e3724518c27123616c09ac3373.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-b4f3567699700ecb4f81a1c39d80e377.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/common-d1d8580f7c8f56bab48101971a22bf6b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-c5d593923963f6a10abed772ffa490f0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/flash-21ed0aacd9a618e31ef6b6870e98a46f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/flash.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js.gz" afterPath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script.js.gz" afterPath="$PROJECT_DIR$/public/assets/coffee-script.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js.gz" afterPath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box.js.gz" afterPath="$PROJECT_DIR$/public/assets/collapsible-box.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common-42b0f4a42c2dd9fd7a5a70c6a6300199.js.gz" afterPath="$PROJECT_DIR$/public/assets/common-42b0f4a42c2dd9fd7a5a70c6a6300199.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common.js.gz" afterPath="$PROJECT_DIR$/public/assets/common.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/contact-1b13569e9620782f423d4cd3ce931750.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.css.gz" afterPath="$PROJECT_DIR$/public/assets/contact.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.js.gz" afterPath="$PROJECT_DIR$/public/assets/contact.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default-3199d4360f822aa52403247078f014f3.css.gz" afterPath="$PROJECT_DIR$/public/assets/default-3199d4360f822aa52403247078f014f3.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default.css.gz" afterPath="$PROJECT_DIR$/public/assets/default.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js.gz" afterPath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header.js.gz" afterPath="$PROJECT_DIR$/public/assets/header.js.gz" />
@@ -44,18 +53,25 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.css.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.js.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-3bd646b87d878cd5726c3721f62359dc.css" afterPath="$PROJECT_DIR$/public/assets/application-3bd646b87d878cd5726c3721f62359dc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-568a971a765679bf586afceda3dc7555.js" afterPath="$PROJECT_DIR$/public/assets/application-568a971a765679bf586afceda3dc7555.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_flash_notice.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_flash_notice.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="$PROJECT_DIR$/public/assets/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js" afterPath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script.js" afterPath="$PROJECT_DIR$/public/assets/coffee-script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js" afterPath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box.js" afterPath="$PROJECT_DIR$/public/assets/collapsible-box.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/common.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common.js" afterPath="$PROJECT_DIR$/public/assets/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" afterPath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.js" afterPath="$PROJECT_DIR$/public/assets/contact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default-3199d4360f822aa52403247078f014f3.css" afterPath="$PROJECT_DIR$/public/assets/default-3199d4360f822aa52403247078f014f3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contact_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/contact_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/contact_mailer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default.css" afterPath="$PROJECT_DIR$/public/assets/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js" afterPath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header.js" afterPath="$PROJECT_DIR$/public/assets/header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" afterPath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js" />
@@ -77,8 +93,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs.js" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js" afterPath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message.js" afterPath="$PROJECT_DIR$/public/assets/recruiter-message.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js" afterPath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css" afterPath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.css" afterPath="$PROJECT_DIR$/public/assets/tooltips.css" />
@@ -87,21 +106,21 @@
     </list>
     <ignored path="com.geneangelo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366253725456" ignored="false" />
-    <file path="/default.css.scss" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366157717206" ignored="false" />
-    <file path="/_flash_notice.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365904730613" ignored="false" />
+    <file path="/Dummy.txt" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366278580545" ignored="false" />
+    <file path="/default.css.scss" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366331124993" ignored="false" />
+    <file path="/_flash_notice.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366331104192" ignored="false" />
     <file path="/flash-notice.js" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365906562052" ignored="false" />
     <file path="/flash-notice.js.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365900187929" ignored="false" />
-    <file path="/application.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365910199547" ignored="false" />
+    <file path="/application.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366335779716" ignored="false" />
     <file path="/home_controller.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366077566460" ignored="false" />
     <file path="/contact_model.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365988280671" ignored="false" />
     <file path="/contact.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365978444820" ignored="false" />
-    <file path="/fragment.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366151605911" ignored="false" />
+    <file path="/fragment.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366329407918" ignored="false" />
     <file path="/_form_key.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365947824513" ignored="false" />
     <file path="/_footer.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1365948812781" ignored="false" />
     <file path="/contact_email.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366046265733" ignored="false" />
     <file path="/contact_mailer_test.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366071053368" ignored="false" />
-    <file path="/contact_mailer.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366074261037" ignored="false" />
+    <file path="/contact_mailer.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366329241071" ignored="false" />
     <file path="/contact_module.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366032251721" ignored="false" />
     <file path="/email_address_module.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366035045707" ignored="false" />
     <file path="/telephone_module.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366030442941" ignored="false" />
@@ -112,15 +131,20 @@
     <file path="/contact_email.txt" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366069547992" ignored="false" />
     <file path="/development.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366239396882" ignored="false" />
     <file path="/routes.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366153729549" ignored="false" />
-    <file path="/contact_controller.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366156149946" ignored="false" />
+    <file path="/contact_controller.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366335283869" ignored="false" />
     <file path="/_navigation.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366079736997" ignored="false" />
     <file path="/index.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366079797595" ignored="false" />
     <file path="/application_controller.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366244493512" ignored="false" />
     <file path="/create.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366154478662" ignored="false" />
-    <file path="/new.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366158922751" ignored="false" />
+    <file path="/new.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366336374132" ignored="false" />
     <file path="/resume.html.erb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366159476590" ignored="false" />
     <file path="/Gemfile" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366238854857" ignored="false" />
     <file path="/application.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366251773619" ignored="false" />
+    <file path="/flash.js" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366335635563" ignored="false" />
+    <file path="/a.rxml" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366323665747" ignored="false" />
+    <file path="/a.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366323644395" ignored="false" />
+    <file path="/environment.rb" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366335246053" ignored="false" />
+    <file path="/common.js" changelist="ac7b2799-56e1-4754-b750-6661ae453c98" time="1366336332713" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,19 +164,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="45" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.7580645">
+            <state line="49" column="70" selection-start="2399" selection-end="2399" vertical-scroll-proportion="-12.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <file leaf-file-name="flash.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/flash.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0">
+            <state line="10" column="49" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="51" selection-start="188" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="18" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="8" selection-start="714" selection-end="714" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -186,22 +248,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/mailers/contact_mailer.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/contact/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/contact/create.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/resume.html.erb" />
-        <option value="$PROJECT_DIR$/.rbenv-version" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/config/environments/test.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/contact_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contact_mailer/contact_email.text.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_flash_notice.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/common.js" />
+        <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/flash.js" />
       </list>
     </option>
   </component>
@@ -413,33 +475,187 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.geneangelo" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.VendorFolderNode" />
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="layouts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="contact_mailer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="contact">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="mailers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="controllers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="stylesheets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="javascripts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.geneangelo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -496,21 +712,49 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.VendorFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="45" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="65" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="47" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="47" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="70" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="477" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="70" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="442" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="477" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="50" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="48" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -523,8 +767,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="ruby.project.structure" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Ruby" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -605,27 +849,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="CommandRunConfigurationType" factoryName="Gem Command">
-      <module name="" />
-      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
-      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
-      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="" />
-      <method />
-    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -648,6 +871,27 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CommandRunConfigurationType" factoryName="Gem Command">
+      <module name="" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
@@ -1080,7 +1324,11 @@
       <created>1366253731758</created>
       <updated>1366253731758</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Asset precompile param bug.">
+      <created>1366254204139</created>
+      <updated>1366254204139</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1107,21 +1355,21 @@
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.69010043" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22022955" sideWeight="0.26392573" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25609756" sideWeight="0.69496024" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25968435" sideWeight="0.69496024" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39124668" sideWeight="0.49713057" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2087518" sideWeight="0.33204633" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33204633" sideWeight="0.51506454" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3050398" sideWeight="0.47991392" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3050398" sideWeight="0.517934" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3050398" sideWeight="0.482066" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.46556672" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.49426112" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.66795367" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1169,7 +1417,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Precompile assets - yet again - missed a few not added to applidation.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Asset precompile param bug." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1202,6 +1450,7 @@
     <MESSAGE value="Duh.  Remove application.rb setting that nullifies use of precompiled assets prior to deployment to production." />
     <MESSAGE value="Precompile assets again." />
     <MESSAGE value="Precompile assets - yet again - missed a few not added to applidation.js" />
+    <MESSAGE value="Asset precompile param bug." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1216,99 +1465,117 @@
           <line>21</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
-        <line-breakpoint type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/mailers/contact_mailer.rb</url>
-          <line>6</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/application_controller.rb</url>
-          <line>27</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="41" />
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/gems/activerecord-3.2.9/lib/active_record/connection_adapters/abstract/connection_pool.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="409" column="0" selection-start="14595" selection-end="14595" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/contact_model.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/gems/railties-3.2.9/lib/rails/railtie/configuration.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="2693" selection-end="2693" vertical-scroll-proportion="1.618932" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+        <state line="35" column="45" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.7580645">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.rbenv-version">
+    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_email.text.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="38" selection-start="930" selection-end="930" vertical-scroll-proportion="-0.08085106">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_flash_notice.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="345" selection-end="345" vertical-scroll-proportion="0.19607843">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contact_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="31" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/contact_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_email.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="43" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="3" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/common.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+        <state line="17" column="8" selection-start="714" selection-end="714" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="70" selection-start="2399" selection-end="2399" vertical-scroll-proportion="-12.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="51" selection-start="188" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/flash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="49" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1316,20 +1583,6 @@
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="45" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.7580645">
           <folding />
         </state>
       </provider>
