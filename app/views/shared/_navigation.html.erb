@@ -2,5 +2,6 @@
   <li><%= link_to_unless_current("Home", {controller: :home, action: :index}) %></li>
   <li><%= link_to_unless_current("Personal Profile", {controller: :home, action: :profile}) %></li>
   <li><%= link_to_unless_current("Online Resume", {controller: :home, action: :resume}) %></li>
-  <li><%= link_to_unless_current("Contact Information", {controller: :contact, action: :new}) %></li>
+  <li><%= link_to_unless_current("Contact", {controller: :contact, action: :new}) %></li>
+  <li><%= link_to_unless_current("Links", {controller: :home, action: :links}) %></li>
 </ul>

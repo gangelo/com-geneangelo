@@ -66,4 +66,5 @@ ComGeneangelo::Application.routes.draw do
   match "/resume" => "home#resume"
   match "/contact" => "contact#new"
   match "/contact/create" => "contact#create"
+  match "/links" => "home#links"
 end

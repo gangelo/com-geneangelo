@@ -8,4 +8,7 @@ class HomeController < ApplicationController
 
   def resume
   end
+
+  def links
+  end
 end

@@ -16,6 +16,11 @@ body {
   margin: 0;
 }
 
+a:link {color:#1C94C4;}
+a:visited {color: rgba(28, 148, 196, 0.58);}
+a:hover {color:#1C94C4;}
+a:active {color:#1C94C4;}
+
 div.genemangelojr-header {
   width: $background-image-width;
   color: #ff9911;
@@ -313,4 +318,19 @@ div.hr {
   content: url(error-icon.png);
   vertical-align: middle;
   margin-right: 3px;
+}
+
+.links a {
+    display: block;
+}
+
+.links.left-side {
+  width: 375px;
+  float: left;
+  display: inline;
+}
+
+.links.right-side{
+  width: 375px;
+  display: inline;
 }
