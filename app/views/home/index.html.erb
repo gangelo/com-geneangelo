@@ -1,5 +1,5 @@
 <% content_for :head do %>
-    <%= javascript_include_tag("homecontroller-index") %>
+   <%= javascript_include_tag("homecontroller-index") %>
 <% end %>
 
 <h1>Home</h1>
@@ -21,9 +21,9 @@
   </p>
 
   <p>
-    My name is <strong>Gene M. Angelo, Jr</strong>. I'm a professional Microsoft ASP.NET/C#
-    Application Developer/Architect with <%= render "shared/years_experience" %> years of application development
-    experience.
+    My name is <strong>Gene M. Angelo, Jr</strong>. I'm a professional, <%= render "shared/job_title" %>,
+    specializing Microsoft .NET Technology, with <%= render "shared/years_experience" %>
+    years of application development experience.
   </p>
 
   <p>
