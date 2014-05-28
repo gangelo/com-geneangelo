@@ -15,7 +15,7 @@
       var backgroundImageBlurBottom = "<%= image_path(@background_image_blur_bottom) %>";
 
       $(document).ready(function () {
-        var flash = <%= {:alert => !flash[:alert].nil?, :notice => !flash[:notice].nil?, :error => !flash[:error].nil? }.to_json.html_safe %>;
+        var flash = <%= {alert: !flash[:alert].nil?, notice: !flash[:notice].nil?, error: !flash[:error].nil? }.to_json.html_safe %>;
         flash.has_flash_notice = function() { return (flash.notice || flash.alert || flash.error); };
         if (flash.has_flash_notice) {
             doFlash(flash);
@@ -47,7 +47,7 @@
 
   <div class="genemangelojr-header">
     <h1><%= @title %></h1>
-    <%= image_tag("mail-white-on-black.png", :alt => "Contact", :style => "vertical-align:middle;") %>
+    <%= image_tag("mail-white-on-black.png", alt: "Contact", style: "vertical-align:middle;") %>
     <%= @contact_email %>
   </div>
 
