@@ -1,28 +1,28 @@
 <% content_for :head do %>
-   <%= javascript_include_tag("homecontroller-index") %>
+   <%= javascript_include_tag('homecontroller-index') %>
 <% end %>
 
 <h1>Home</h1>
 
 <%
    quote = "You're not from here, are you?"
-   source = "Vanellope von Schweetz, Wreck-It Ralph"
+   source = 'Vanellope von Schweetz, Wreck-It Ralph'
    response = "You've come to the right place. I think."
 %>
 
-<%= render "shared/pithy_quote", quote: quote, source: source, response: response %>
+<%= render 'shared/pithy_quote', quote: quote, source: source, response: response %>
 
 <div class="section">
   <div style="float: right;">
-    <%= image_tag("genemangelojr.jpg", :alt => "Me and my wife Amy", :style => "padding:5px;") %>
+    <%= image_tag('genemangelojr.jpg', alt: 'Me and my wife Amy', style: 'padding:5px;') %>
   </div>
   <p>
     Welcome.
   </p>
 
   <p>
-    My name is <strong>Gene M. Angelo, Jr</strong>. I'm a professional, <%= render "shared/job_title" %>,
-    specializing Microsoft .NET Technology, with <%= render "shared/years_experience" %>
+    My name is <strong>Gene M. Angelo, Jr</strong>. I'm a professional, <%= render 'shared/job_title' %>,
+    specializing Microsoft .NET Technology, with <%= render 'shared/years_experience' %>
     years of application development experience.
   </p>
 
@@ -35,11 +35,11 @@
 
   <p>
     Please feel free to review my condensed
-    <%= link_to "personal profile", profile_path %>,
+    <%= link_to 'personal profile', profile_path %>,
     to get a condensed glimpse of what I'm about, or, go straight for the gusto and view my
-    <%= link_to "online resume", resume_path %>.
+    <%= link_to 'online resume', resume_path %>.
     Contact information can be found by visiting my
-    <%= link_to "contact", contact_path %>
+    <%= link_to 'contact', contact_path %>
     page.
   </p>
 
@@ -49,7 +49,7 @@
 
   <div>
     <div style="padding-bottom: 20px;">Thank you for visiting!</div>
-    <%= image_tag("signature.jpg", :alt => "Gene M. Angelo, Jr. Signature") %>
+    <%= image_tag('signature.jpg', :alt => 'Gene M. Angelo, Jr. Signature') %>
     <div style="padding-bottom: 10px;">Gene M. Angelo, Jr.</div>
   </div>
 

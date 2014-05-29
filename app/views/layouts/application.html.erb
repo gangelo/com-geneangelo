@@ -4,50 +4,50 @@
   <title><%= @title %> | Welcome</title>
 
   <%= favicon_link_tag %>
-  <%= stylesheet_link_tag "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
 
   <%= javascript_tag do -%>
-      var backgroundImage = "<%= image_path(@background_image) %>";
-      var backgroundImageBlur = "<%= image_path(@background_image_blur) %>";
+     var backgroundImage = "<%= image_path(@background_image) %>";
+     var backgroundImageBlur = "<%= image_path(@background_image_blur) %>";
 
-      var backgroundImageBottom = "<%= image_path(@background_image_bottom) %>";
-      var backgroundImageBlurBottom = "<%= image_path(@background_image_blur_bottom) %>";
+     var backgroundImageBottom = "<%= image_path(@background_image_bottom) %>";
+     var backgroundImageBlurBottom = "<%= image_path(@background_image_blur_bottom) %>";
 
-      $(document).ready(function () {
-        var flash = <%= {alert: !flash[:alert].nil?, notice: !flash[:notice].nil?, error: !flash[:error].nil? }.to_json.html_safe %>;
+     $(document).ready(function () {
+        var flash = <%= {alert: !flash[:alert].nil?, notice: !flash[:notice].nil?, error: !flash[:error].nil?}.to_json.html_safe %>;
         flash.has_flash_notice = function() { return (flash.notice || flash.alert || flash.error); };
         if (flash.has_flash_notice) {
             doFlash(flash);
         }
-      });
+     });
   <% end -%>
 
   <%= yield :head %>
 
   <%= javascript_tag do -%>
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-24510333-1']);
-      _gaq.push(['_trackPageview']);
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-24510333-1']);
+     _gaq.push(['_trackPageview']);
 
-      (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+     (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
   <% end %>
 
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= render "shared/flash_notice" %>
+<%= render 'shared/flash_notice' %>
 
 <div class="main-container">
 
   <div class="genemangelojr-header">
     <h1><%= @title %></h1>
-    <%= image_tag("mail-white-on-black.png", alt: "Contact", style: "vertical-align:middle;") %>
+    <%= image_tag('mail-white-on-black.png', alt: 'Contact', style: 'vertical-align:middle;') %>
     <%= @contact_email %>
   </div>
 
@@ -55,10 +55,10 @@
     <span class="main-body-inner center rounded-corners"> </span>
 
     <div class="main-body-padding">
-      <%= render "shared/navigation" %>
+      <%= render 'shared/navigation' %>
       <%= yield %>
     </div>
-    <%= render "shared/footer" %>
+    <%= render 'shared/footer' %>
 
     <div class="main-body-bottom center rounded-corners">
       <span class="main-body-inner-bottom center rounded-corners"> </span>

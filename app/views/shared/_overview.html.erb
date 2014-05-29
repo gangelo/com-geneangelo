@@ -1,20 +1,20 @@
 <div class="section">
   <div class="section small-quote rounded-corners-small">
     <p>
-      Articulate, personable, cutting-edge, professional, <%= render "shared/job_title" %>, specializing Microsoft .NET
+      Articulate, personable, cutting-edge, professional, <%= render 'shared/job_title' %>, specializing Microsoft .NET
       Technology.</p>
 
     <p>
-      Professional experience includes over <%= render "shared/years_experience" %> years of programming/development
-      disciplines including Full Stack,
+      Professional experience includes over <%= render 'shared/years_experience' %> years of programming/development
+      disciplines, including Full Stack,
       ASP.NET/C#/Razor-based web application design/coding, architectural design, heavy object-oriented coding, UI
       design (Web/WinForms), WCF, AJAX, jQuery, jQuery UI, SQL Server 2012/2008, TFS, TDD, Agile.
     </p>
 
     <h1>Primary Goal</h1>
 
-    <p>To secure a challenging, HANDS-ON, cutting-edge position, with an established, outstanding company, as
-      a <%= render "shared/job_title" %>, that utilizes my Microsoft .NET skills and technical know-how to
+    <p>To secure a challenging, HANDS-ON, cutting-edge position, with an outstanding client, as
+      a <%= render 'shared/job_title' %>, that utilizes my Microsoft .NET skills and technical know-how to
       the full.</p>
 
     <h1>Specialties</h1>
@@ -29,51 +29,72 @@
 <div class="section">
   <h1>Technologies</h1>
 
-  <h2>Likes (these are good!)</h2>
+  <div class="tech-list-container like-container">
+    <h2 class="like-color">Likes (these are GOOD!)</h2>
 
-  <p>
-    <span class="tech-tag like">agile</span>
-    <span class="tech-tag like">c#</span>
-    <span class="tech-tag like">asp.net mvc 4+</span>
-    <span class="tech-tag like">wcf</span>
-    <span class="tech-tag like">xml web services</span>
-    <span class="tech-tag like">design patterns</span>
-    <span class="tech-tag like">ajax</span>
-    <span class="tech-tag like">css</span>
-    <span class="tech-tag like">entity framework</span>
-    <span class="tech-tag like">sass</span>
-    <span class="tech-tag like">jquery</span>
-    <span class="tech-tag like">orm</span>
-    <span class="tech-tag like">oop</span>
-    <span class="tech-tag like">jquery</span>
-    <span class="tech-tag like">ruby</span>
-    <span class="tech-tag like">ruby on rails</span>
-    <span class="tech-tag like">rubymine</span>
-    <span class="tech-tag like">tdd</span>
-    <span class="tech-tag like">moq</span>
-    <span class="tech-tag like">rspec</span>
-    <span class="tech-tag like">vs2012+</span>
-    <span class="tech-tag like">tfs</span>
-    <span class="tech-tag like">git</span>
-    <span class="tech-tag like">rbenv</span>
-    <span class="tech-tag like">ddd</span>
-    <span class="tech-tag like">dependency-injection</span>
-    <span class="tech-tag like">ioc</span>
-  </p>
+    <p class="like-color">Positions utilizing these technologies will immediately gain my
+      interest.</p>
 
-  <h2>Dislikes (these are bad!)</h2>
+    <div>
+      <span class="tech-tag like">agile</span>
+      <span class="tech-tag like">c#</span>
+      <span class="tech-tag like">asp.net mvc 4+</span>
+      <span class="tech-tag like">wcf</span>
+      <span class="tech-tag like">xml web services</span>
+      <span class="tech-tag like">design patterns</span>
+      <span class="tech-tag like">ajax</span>
+      <span class="tech-tag like">css</span>
+      <span class="tech-tag like">entity framework</span>
+      <span class="tech-tag like">sass</span>
+      <span class="tech-tag like">jquery</span>
+      <span class="tech-tag like">orm</span>
+      <span class="tech-tag like">oop</span>
+      <span class="tech-tag like">jquery</span>
+      <span class="tech-tag like">ruby</span>
+      <span class="tech-tag like">ruby on rails</span>
+      <span class="tech-tag like">rubymine</span>
+      <span class="tech-tag like">tdd</span>
+      <span class="tech-tag like">moq</span>
+      <span class="tech-tag like">rspec</span>
+      <span class="tech-tag like">vs2012+</span>
+      <span class="tech-tag like">tfs</span>
+      <span class="tech-tag like">git</span>
+      <span class="tech-tag like">rbenv</span>
+      <span class="tech-tag like">ddd</span>
+      <span class="tech-tag like">dependency-injection</span>
+      <span class="tech-tag like">ioc</span>
+    </div>
+  </div>
 
-  <p>
-    <span class="tech-tag dislike">non-agile</span>
-    <span class="tech-tag dislike">asp.net webforms</span>
-    <span class="tech-tag dislike">asp.net mvc &lt; 4</span>
-    <span class="tech-tag dislike">&lt; vs2012</span>
-    <span class="tech-tag dislike">vb.net</span>
-    <span class="tech-tag dislike">vbscript</span>
-    <span class="tech-tag dislike">classic-asp</span>
-    <span class="tech-tag dislike">dreamweaver</span>
-    <span class="tech-tag dislike">coldfusion</span>
-    <span class="tech-tag dislike">flash</span>
-    <span class="tech-tag dislike">legacy</span>
-  </p>
+  <div class="tech-list-container dislike-container">
+    <h2 class="dislike-color">Dislikes (these are BAD!)</h2>
+
+    <p class="dislike-color">Positions utilizing these technologies be considered.</p>
+
+    <div>
+      <span class="tech-tag dislike">non-agile</span>
+      <span class="tech-tag dislike">asp.net mvc &lt; 4</span>
+      <span class="tech-tag dislike">&lt; vs2012</span>
+    </div>
+  </div>
+
+  <div class="tech-list-container deal-breaker-container">
+    <h2 class="deal-breaker-color">Deal-Breakers (these are VERY bad!)</h2>
+
+    <p class="deal-breaker-color">Positions utilizing any of these technologies will be
+      immediately rejeted. Working with these technologies destroys marketability.</p>
+
+    <div>
+      <span class="tech-tag deal-breaker">asp.net webforms</span>
+      <span class="tech-tag deal-breaker">vb.net</span>
+      <span class="tech-tag deal-breaker">vbscript</span>
+      <span class="tech-tag deal-breaker">classic-asp</span>
+      <span class="tech-tag deal-breaker">dreamweaver</span>
+      <span class="tech-tag deal-breaker">coldfusion</span>
+      <span class="tech-tag deal-breaker">flash</span>
+      <span class="tech-tag deal-breaker">silverlight</span>
+      <span class="tech-tag deal-breaker">legacy</span>
+      <span class="tech-tag deal-breaker">wpf</span>
+    </div>
+  </div>
 </div>

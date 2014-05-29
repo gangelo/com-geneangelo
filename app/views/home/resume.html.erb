@@ -1,28 +1,28 @@
 <% content_for :head do %>
-   <%= javascript_include_tag("homecontroller-resume") %>
+   <%= javascript_include_tag('homecontroller-resume') %>
 <% end %>
 
 <h1>Resume</h1>
 
 <%
    quote = "You, uh...you don't entertain much, do you?"
-   source = "Donkey, Shrek"
+   source = 'Donkey, Shrek'
    response = "Uh...actually, I do! I've just been around for a while!"
 %>
 
-<%= render "shared/pithy_quote", quote: quote, source: source, response: response %>
+<%= render 'shared/pithy_quote', quote: quote, source: source, response: response %>
 
 <div class="section">
   <p>Welcome to my <strong>online resume</strong>. </p>
 
   <p>Here, potential employers and recruiters will find detailed information about
     my work history. Enjoy! If you are looking for a little "easier read",
-    please check out my <%= link_to "personal profile", profile_path %> page.</p>
+    please check out my <%= link_to 'personal profile', profile_path %> page.</p>
 </div>
 
-<%= render "shared/recruiter_message" %>
+<%= render 'shared/recruiter_message' %>
 
-<%= render "shared/overview" %>
+<%= render 'shared/overview' %>
 
 <div class="section">
 <h1>Experience</h1>
