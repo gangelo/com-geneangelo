@@ -10,6 +10,7 @@ $background-image-height: 300px;
 
 body {
   background-color: #000;
+  background-image: asset_url("background-tile.png", image);
   color: #1C94C4;
   font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;
   font-size: $base-font-size;
