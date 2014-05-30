@@ -5,107 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7b2799-56e1-4754-b750-6661ae453c98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-566c8c0590ded5d5d0b050b7469488d0.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5c7d494a237922de3bb72e693514fc7d.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5cbb188106c90f156d2f11dba552f19d.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-728458488b572acaab9996cde9556d54.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-784e08d08aecb0b5646bef3824f1c614.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c317236610a074117055540d9c8ebe2b.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-d405b344cc5829c1f123c259464cb76c.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-ee55cc662ddc731cc3b487417e1b5485.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-08fa3364d3f5814c5faad61bce075014.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-1c8236382f7ba8523bce119026a055bf.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-4aae0144824f2a8dc5eff7842208e96c.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-5879491e7b91008add0e1a7521000d96.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-ceb624d303c0fd06bd94a15dd086ed03.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-e801b38a55461a0a5001fb035ceda601.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-ed2980985c635af9a15cc313fc3e2807.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-fff8319d389b7de3a49fefa8b5996634.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/emoticon-deal-breaker-f21fc41b05c9c65186edc313f97453d9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/emoticon-deal-breaker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/emoticon-deal-breaker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/emoticon-dislike-73f5db6865f75421e2924a15ae6207cb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/emoticon-dislike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/emoticon-dislike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/emoticon-like-853157e51973bbd2b4a2194814430ca3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/emoticon-like.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/emoticon-like.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-566c8c0590ded5d5d0b050b7469488d0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5c7d494a237922de3bb72e693514fc7d.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-5cbb188106c90f156d2f11dba552f19d.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-728458488b572acaab9996cde9556d54.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-784e08d08aecb0b5646bef3824f1c614.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-c317236610a074117055540d9c8ebe2b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-d405b344cc5829c1f123c259464cb76c.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-ee55cc662ddc731cc3b487417e1b5485.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-08fa3364d3f5814c5faad61bce075014.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-1c8236382f7ba8523bce119026a055bf.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-4aae0144824f2a8dc5eff7842208e96c.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-5879491e7b91008add0e1a7521000d96.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-ceb624d303c0fd06bd94a15dd086ed03.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-e801b38a55461a0a5001fb035ceda601.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-ed2980985c635af9a15cc313fc3e2807.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-fff8319d389b7de3a49fefa8b5996634.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-354b27e3724518c27123616c09ac3373.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-354b27e3724518c27123616c09ac3373.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-8c936ba47efb468429faf1d6023640dc.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-8c936ba47efb468429faf1d6023640dc.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js.gz" afterPath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script.js.gz" afterPath="$PROJECT_DIR$/public/assets/coffee-script.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js.gz" afterPath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box.js.gz" afterPath="$PROJECT_DIR$/public/assets/collapsible-box.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common-d1d8580f7c8f56bab48101971a22bf6b.js.gz" afterPath="$PROJECT_DIR$/public/assets/common-d1d8580f7c8f56bab48101971a22bf6b.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common.js.gz" afterPath="$PROJECT_DIR$/public/assets/common.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/contact-1b13569e9620782f423d4cd3ce931750.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.css.gz" afterPath="$PROJECT_DIR$/public/assets/contact.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.js.gz" afterPath="$PROJECT_DIR$/public/assets/contact.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default-4c6bdcfb6eb2a2c9125f222c1952a7da.css.gz" afterPath="$PROJECT_DIR$/public/assets/default-4c6bdcfb6eb2a2c9125f222c1952a7da.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default.css.gz" afterPath="$PROJECT_DIR$/public/assets/default.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/flash-21ed0aacd9a618e31ef6b6870e98a46f.js.gz" afterPath="$PROJECT_DIR$/public/assets/flash-21ed0aacd9a618e31ef6b6870e98a46f.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/flash.js.gz" afterPath="$PROJECT_DIR$/public/assets/flash.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js.gz" afterPath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header.js.gz" afterPath="$PROJECT_DIR$/public/assets/header.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home.js.gz" afterPath="$PROJECT_DIR$/public/assets/home.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-index-9c15edf4a0218c33bf0d261a20b1dea6.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-index-9c15edf4a0218c33bf0d261a20b1dea6.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-index.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-index.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-resume-e09ae412241ac2a4bfae9783c4bb8e63.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-resume-e09ae412241ac2a4bfae9783c4bb8e63.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-resume.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-resume.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-8e3eeec9a63c444507aff45ee83b99f1.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-8e3eeec9a63c444507aff45ee83b99f1.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-483dc7943d92dd8bb8f3ba894fe3fa92.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-483dc7943d92dd8bb8f3ba894fe3fa92.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-4d128f8cf30791f990efb14dcd13b61b.css.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-4d128f8cf30791f990efb14dcd13b61b.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.css.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-4856b8d4fb395706be8d907efda018e4.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-4856b8d4fb395706be8d907efda018e4.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.min.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.min-f0be527d7892ef260a72ac74ae956458.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.min-f0be527d7892ef260a72ac74ae956458.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.min.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js.gz" afterPath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message.js.gz" afterPath="$PROJECT_DIR$/public/assets/recruiter-message.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.js.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_job_title.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_job_title.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_overview.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_overview.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_recruiter_message.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_recruiter_message.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default.css" afterPath="$PROJECT_DIR$/public/assets/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/links.html.erb" afterPath="$PROJECT_DIR$/app/views/home/links.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/profile.html.erb" afterPath="$PROJECT_DIR$/app/views/home/profile.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/resume.html.erb" afterPath="$PROJECT_DIR$/app/views/home/resume.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.geneangelo.iws" />
@@ -119,7 +19,7 @@
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/com.geneangelo@assets_precompile.coverage" NAME="assets:precompile Coverage Results" MODIFIED="1401394992048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
-    <SUITE FILE_PATH="coverage/com.geneangelo@Development__com_geneangelo.coverage" NAME="Development: com.geneangelo Coverage Results" MODIFIED="1401395138084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
+    <SUITE FILE_PATH="coverage/com.geneangelo@Development__com_geneangelo.coverage" NAME="Development: com.geneangelo Coverage Results" MODIFIED="1401420576335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
     <SUITE FILE_PATH="coverage/com.geneangelo@assets_clean__com_geneangelo.coverage" NAME="assets:clean: com.geneangelo Coverage Results" MODIFIED="1401385062779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
     <SUITE FILE_PATH="coverage/com.geneangelo@All_tests_in_test__com_geneangelo.coverage" NAME="All tests in test: com.geneangelo Coverage Results" MODIFIED="1400781646373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
   </component>
@@ -135,21 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47921762" vertical-offset="3299" max-vertical-offset="5685">
+            <state vertical-scroll-proportion="-3.92" vertical-offset="3299" max-vertical-offset="5685">
               <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_overview.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_overview.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_overview.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.75" vertical-offset="1002" max-vertical-offset="1575">
-              <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.6551724" vertical-offset="945" max-vertical-offset="1560">
+              <caret line="82" column="92" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -205,8 +105,8 @@
         <option value="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_recruiter_message.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_overview.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/shared/_overview.html.erb" />
       </list>
     </option>
   </component>
@@ -1458,7 +1358,11 @@
       <created>1401362188382</created>
       <updated>1401362188382</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="css spice-up on technologies likes/dislikes/deal-breaker section. Use single quotes where appropriate as opposed to double quotes.">
+      <created>1401395314525</created>
+      <updated>1401395314525</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1524,7 +1428,6 @@
     </option>
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Continue work on Contact page validation - new territory :S" />
     <MESSAGE value="Contact form." />
     <MESSAGE value="Remove ActiveRecord" />
     <MESSAGE value="Fix ::rand bug that doesn't accept range as parameter and replace with Random.new.rand(n..n)" />
@@ -1549,7 +1452,8 @@
     <MESSAGE value="Change hash rockets to new notation (&quot;:&quot;) where appropriate." />
     <MESSAGE value="Add backround image." />
     <MESSAGE value="Add missing precompiled assets." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add missing precompiled assets." />
+    <MESSAGE value="css spice-up on technologies likes/dislikes/deal-breaker section. Use single quotes where appropriate as opposed to double quotes." />
+    <option name="LAST_COMMIT_MESSAGE" value="css spice-up on technologies likes/dislikes/deal-breaker section. Use single quotes where appropriate as opposed to double quotes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1939,18 +1843,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_overview.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.75" vertical-offset="1002" max-vertical-offset="1575">
-          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+        <state vertical-scroll-proportion="-3.92" vertical-offset="3299" max-vertical-offset="5685">
+          <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_overview.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47921762" vertical-offset="3299" max-vertical-offset="5685">
-          <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.6551724" vertical-offset="945" max-vertical-offset="1560">
+          <caret line="82" column="92" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="6" />
           <folding />
         </state>
       </provider>
