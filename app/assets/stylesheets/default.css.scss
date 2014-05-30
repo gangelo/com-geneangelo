@@ -68,7 +68,9 @@ h1 {
   font-weight: bold;
 
   .section & {
+    color: rgba(28, 148, 196, 0.60);
     font-size: $base-h-font-size - 5px;
+    margin: 50px 0 20px 0;
   }
 }
 
