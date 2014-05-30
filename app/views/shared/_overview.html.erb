@@ -35,72 +35,27 @@
 <div class="section">
   <h1>Technological Preference</h1>
 
-  <div class="pref-list-container like-container">
-    <h2 class="like-color">Likes</h2>
+  <%
+     preference_type = :yes
+     preferences = %w{agile c# asp.net\ mvc\ 4+ wcf xml\ web\ services design\ patterns ajax css entity\ framework sass
+         jquery jquery\ ui orm oop ood ruby ruby\ on\ rails rubymine tdd moq rspec vs2012+ tfs git rbenv ddd dependency-injection
+         ioc}
+     preference_description = 'COOL! Positions utilizing these technologies/methodologies make me happy!'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
 
-    <p class="like-color">COOL! Positions utilizing these technologies/methodologies make me happy!</p>
+  <%
+     preference_type = :meh
+     preferences = %w{non-agile asp.net\ <\ mvc\ 4 <\ vs2012}
+     preference_description = 'MEH. Positions utilizing these technologies/methodologies could be cool.'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
 
-    <div>
-      <span class="pref-tag like">agile</span>
-      <span class="pref-tag like">c#</span>
-      <span class="pref-tag like">asp.net mvc 4+</span>
-      <span class="pref-tag like">wcf</span>
-      <span class="pref-tag like">xml web services</span>
-      <span class="pref-tag like">design patterns</span>
-      <span class="pref-tag like">ajax</span>
-      <span class="pref-tag like">css</span>
-      <span class="pref-tag like">entity framework</span>
-      <span class="pref-tag like">sass</span>
-      <span class="pref-tag like">jquery</span>
-      <span class="pref-tag like">orm</span>
-      <span class="pref-tag like">oop</span>
-      <span class="pref-tag like">jquery</span>
-      <span class="pref-tag like">ruby</span>
-      <span class="pref-tag like">ruby on rails</span>
-      <span class="pref-tag like">rubymine</span>
-      <span class="pref-tag like">tdd</span>
-      <span class="pref-tag like">moq</span>
-      <span class="pref-tag like">rspec</span>
-      <span class="pref-tag like">vs2012+</span>
-      <span class="pref-tag like">tfs</span>
-      <span class="pref-tag like">git</span>
-      <span class="pref-tag like">rbenv</span>
-      <span class="pref-tag like">ddd</span>
-      <span class="pref-tag like">dependency-injection</span>
-      <span class="pref-tag like">ioc</span>
-    </div>
-  </div>
+  <%
+     preference_type = :no
+     preferences = %w{asp.net\ webforms vb.net vbscript classic-asp dreamweaver coldfusion flash silverlight legacy wpf}
+     preference_description = 'NO WAY JOSE! Positions utilizing any of these technologies/methodologies is boring, and destroys my marketability!'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
 
-  <div class="pref-list-container dislike-container">
-    <h2 class="dislike-color">Dislikes</h2>
-
-    <p class="dislike-color">MEH. Positions utilizing these technologies/methodologies could be cool.</p>
-
-    <div>
-      <span class="pref-tag dislike">non-agile</span>
-      <span class="pref-tag dislike">asp.net mvc &lt; 4</span>
-      <span class="pref-tag dislike">&lt; vs2012</span>
-    </div>
-  </div>
-
-  <div class="pref-list-container deal-breaker-container">
-    <h2 class="deal-breaker-color">Deal-Breakers</h2>
-
-    <p class="deal-breaker-color">NO WAY JOSE! Positions utilizing any of these technologies/methodologies is boring,
-      and destroys my
-      marketability!</p>
-
-    <div>
-      <span class="pref-tag deal-breaker">asp.net webforms</span>
-      <span class="pref-tag deal-breaker">vb.net</span>
-      <span class="pref-tag deal-breaker">vbscript</span>
-      <span class="pref-tag deal-breaker">classic-asp</span>
-      <span class="pref-tag deal-breaker">dreamweaver</span>
-      <span class="pref-tag deal-breaker">coldfusion</span>
-      <span class="pref-tag deal-breaker">flash</span>
-      <span class="pref-tag deal-breaker">silverlight</span>
-      <span class="pref-tag deal-breaker">legacy</span>
-      <span class="pref-tag deal-breaker">wpf</span>
-    </div>
-  </div>
 </div>

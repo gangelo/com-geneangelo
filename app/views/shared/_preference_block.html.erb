@@ -1,0 +1,14 @@
+<div class='<%= "pref-list-container #{preference_type}-container" %>'>
+  <h2 class='<%= "#{preference_type}-color" %>'><%= preference_type.to_s.titleize %></h2>
+
+  <p class='<%= "#{preference_type}-color" %>'><%= preference_description %></p>
+
+  <div>
+
+    <% preferences.sort.each { |preference| %>
+
+       <span class='<%= "pref-tag #{preference_type}" %>'><%= preference %></span>
+
+    <% } %>
+  </div>
+</div>

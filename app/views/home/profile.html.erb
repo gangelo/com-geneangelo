@@ -49,6 +49,27 @@
 <div class="section">
   <h1>Contractual Preference</h1>
 
+  <%
+     preference_type = :yes
+     preferences = %w{consulting corp-2-corp long-term-contract}
+     preference_description = 'COOL! This makes me happy!'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
+
+  <%
+     preference_type = :meh
+     preferences = %w{contract-2-hire medium-term-contract}
+     preference_description = 'These could be cool, but I usually lose a lot of tax write-offs.'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
+
+  <%
+     preference_type = :no
+     preferences = %w{w2 short-term-contract}
+     preference_description = 'NO WAY JOSE! I lose too much in tax write-offs; too risky.'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
+
   <div class="profile-entry">
     When it comes to employment, I've started my career as a bit of a Hobbit, preferring more permanent fare, thank you
     very much! As

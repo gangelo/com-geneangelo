@@ -231,35 +231,35 @@ div.hr {
   background-color: #e0e0e0;
 }
 
-/* like/dislike/deal-breaker tags*/
+/* yes/meh/no tags*/
 .pref-list-container {
   margin-top: 50px;
   padding-left: 75px;
   background-repeat: no-repeat;
   min-height: 75px;
 
-  &.like-container {
+  &.yes-container {
     background-image: asset_url('emoticon-like.png', image);
   }
 
-  &.dislike-container {
+  &.meh-container {
     background-image: asset_url('emoticon-dislike.png', image);
   }
 
-  &.deal-breaker-container {
+  &.no-container {
     background-image: asset_url('emoticon-deal-breaker.png', image);
   }
 }
 
-.like-color {
+.yes-color {
   color: #006600;
 }
 
-.dislike-color {
+.meh-color {
   color: #dda000;
 }
 
-.deal-breaker-color {
+.no-color {
   color: #660000;
 }
 
@@ -271,22 +271,22 @@ div.hr {
   background-color: #E0EAF1;
   border: 1px solid #55a4d1;
 
-  &.like {
+  &.yes {
     background-color: #cff1c9;
     border: 1px solid #67b570;
-    @extend .like-color;
+    @extend .yes-color;
   }
 
-  &.dislike {
+  &.meh {
     background-color: rgba(255, 160, 0, 0.25);
     border: 1px solid rgba(255, 160, 0, 0.50);
-    @extend .dislike-color;
+    @extend .meh-color;
   }
 
-  &.deal-breaker {
+  &.no {
     background-color: rgba(102, 0, 0, 0.25);
     border: 1px solid rgba(102, 0, 0, 0.50);
-    @extend .deal-breaker-color;
+    @extend .no-color;
   }
 }
 
