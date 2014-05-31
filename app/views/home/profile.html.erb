@@ -44,6 +44,13 @@
       <li>Did I mention, <i>hands-on</i>??? :)</li>
     </ul>
   </div>
+
+  <%
+     preference_type = :yes
+     preferences = %w{hands-on hands-on hands-on hands-on hands-on hands-on hands-on hands-on hands-on}
+     preference_description = 'COOL! This make me happy!'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
 </div>
 
 <div class="section">
@@ -111,6 +118,28 @@
       <i>passion for what we do is through the roof.</i>
     </p>
   </div>
+
+  <%
+     preference_type = :yes
+     preferences = %w{agile hands\ off\ management}
+     preference_description = 'COOL! These environmental characteristics make me happy!'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
+
+  <%
+     preference_type = :meh
+     preferences = %w{non-agile hands\ on\ management}
+     preference_description = 'MEH. These environmental characteristics could be cool.'
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
+
+  <%
+     preference_type = :no
+     preferences = %w{sweatshops micro-management}
+     preference_description = "NO WAY JOSE! I...can't...BREATHE!"
+  %>
+  <%= render 'shared/preference_block', preference_type: preference_type, preferences: preferences, preference_description: preference_description %>
+
 </div>
 
 <div class="section">
