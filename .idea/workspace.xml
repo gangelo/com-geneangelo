@@ -5,7 +5,131 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7b2799-56e1-4754-b750-6661ae453c98" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-3e33cd3c05edb53e5c1f8aa3ef9b6e18.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9b79fb13ea979b8fbe62940f9238b8ea.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-119d737998d4eac1f1f98f44736a8019.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-46725562b744acb2637623b39e010c55.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-3e33cd3c05edb53e5c1f8aa3ef9b6e18.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-9b79fb13ea979b8fbe62940f9238b8ea.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-119d737998d4eac1f1f98f44736a8019.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/default-46725562b744acb2637623b39e010c55.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-080da49277ff660012b4f9588b3e3c15.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-080da49277ff660012b4f9588b3e3c15.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-091c11646b1a06184ed0d8c009a4b73d.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-091c11646b1a06184ed0d8c009a4b73d.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-566c8c0590ded5d5d0b050b7469488d0.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-566c8c0590ded5d5d0b050b7469488d0.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-5c7d494a237922de3bb72e693514fc7d.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-5c7d494a237922de3bb72e693514fc7d.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-5cbb188106c90f156d2f11dba552f19d.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-5cbb188106c90f156d2f11dba552f19d.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-66cb1f096314383d0b1cc184ba5c6c38.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-66cb1f096314383d0b1cc184ba5c6c38.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-728458488b572acaab9996cde9556d54.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-728458488b572acaab9996cde9556d54.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-784e08d08aecb0b5646bef3824f1c614.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-784e08d08aecb0b5646bef3824f1c614.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-8c936ba47efb468429faf1d6023640dc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-8c936ba47efb468429faf1d6023640dc.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-93af9741f0fd2a14de92d9bd2efc12fe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-93af9741f0fd2a14de92d9bd2efc12fe.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-c317236610a074117055540d9c8ebe2b.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-c317236610a074117055540d9c8ebe2b.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-ca6799144bcbd0ec1499188459b9a7a6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-ca6799144bcbd0ec1499188459b9a7a6.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-d405b344cc5829c1f123c259464cb76c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-d405b344cc5829c1f123c259464cb76c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-d42b752a3d9988d1d42d4696cc830179.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-d42b752a3d9988d1d42d4696cc830179.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-ee55cc662ddc731cc3b487417e1b5485.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-ee55cc662ddc731cc3b487417e1b5485.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-f391106b6b0d5630fac624d0febd4064.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-f391106b6b0d5630fac624d0febd4064.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-08fa3364d3f5814c5faad61bce075014.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-08fa3364d3f5814c5faad61bce075014.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-17777884bc09ee721e9dfc5163ea21af.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-17777884bc09ee721e9dfc5163ea21af.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-1c8236382f7ba8523bce119026a055bf.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-1c8236382f7ba8523bce119026a055bf.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-1e7af885badd9d4b1a2b6c94f4b3d8db.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-1e7af885badd9d4b1a2b6c94f4b3d8db.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-233c22d6d16d9ec978588ed21010fb3c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-233c22d6d16d9ec978588ed21010fb3c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-4aae0144824f2a8dc5eff7842208e96c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-4aae0144824f2a8dc5eff7842208e96c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-4c6bdcfb6eb2a2c9125f222c1952a7da.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-4c6bdcfb6eb2a2c9125f222c1952a7da.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-5879491e7b91008add0e1a7521000d96.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-5879491e7b91008add0e1a7521000d96.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-63bd9eaf0293d36c67c33ef1e4917679.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-63bd9eaf0293d36c67c33ef1e4917679.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-7d3f76c966605d26cae4c0c19d35820c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-7d3f76c966605d26cae4c0c19d35820c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-83cf909638034cacd3a5e1fb0070a66c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-83cf909638034cacd3a5e1fb0070a66c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-b6fd36934d851de7905abe5edba61fe8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-b6fd36934d851de7905abe5edba61fe8.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-ceb624d303c0fd06bd94a15dd086ed03.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-ceb624d303c0fd06bd94a15dd086ed03.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-e801b38a55461a0a5001fb035ceda601.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-e801b38a55461a0a5001fb035ceda601.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-ed2980985c635af9a15cc313fc3e2807.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-ed2980985c635af9a15cc313fc3e2807.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-fff8319d389b7de3a49fefa8b5996634.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/default-fff8319d389b7de3a49fefa8b5996634.css.gz" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-354b27e3724518c27123616c09ac3373.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-354b27e3724518c27123616c09ac3373.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js.gz" afterPath="$PROJECT_DIR$/public/assets/coffee-script-48d76af6b41e787636717279ccc41353.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/coffee-script.js.gz" afterPath="$PROJECT_DIR$/public/assets/coffee-script.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js.gz" afterPath="$PROJECT_DIR$/public/assets/collapsible-box-326ead8c590497f7832c81676510b60b.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/collapsible-box.js.gz" afterPath="$PROJECT_DIR$/public/assets/collapsible-box.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common-d1d8580f7c8f56bab48101971a22bf6b.js.gz" afterPath="$PROJECT_DIR$/public/assets/common-d1d8580f7c8f56bab48101971a22bf6b.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/common.js.gz" afterPath="$PROJECT_DIR$/public/assets/common.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-1b13569e9620782f423d4cd3ce931750.css.gz" afterPath="$PROJECT_DIR$/public/assets/contact-1b13569e9620782f423d4cd3ce931750.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/contact-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.css.gz" afterPath="$PROJECT_DIR$/public/assets/contact.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/contact.js.gz" afterPath="$PROJECT_DIR$/public/assets/contact.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default.css.gz" afterPath="$PROJECT_DIR$/public/assets/default.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/flash-21ed0aacd9a618e31ef6b6870e98a46f.js.gz" afterPath="$PROJECT_DIR$/public/assets/flash-21ed0aacd9a618e31ef6b6870e98a46f.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/flash.js.gz" afterPath="$PROJECT_DIR$/public/assets/flash.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js.gz" afterPath="$PROJECT_DIR$/public/assets/header-ea53a89e03915e3a96f574bd3d6f88cf.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/header.js.gz" afterPath="$PROJECT_DIR$/public/assets/header.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" afterPath="$PROJECT_DIR$/public/assets/home-a7fa98ba2ef09a5dcc079d3f014a4e3c.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/home.js.gz" afterPath="$PROJECT_DIR$/public/assets/home.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-index-9c15edf4a0218c33bf0d261a20b1dea6.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-index-9c15edf4a0218c33bf0d261a20b1dea6.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-index.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-index.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-resume-e09ae412241ac2a4bfae9783c4bb8e63.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-resume-e09ae412241ac2a4bfae9783c4bb8e63.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/homecontroller-resume.js.gz" afterPath="$PROJECT_DIR$/public/assets/homecontroller-resume.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-8e3eeec9a63c444507aff45ee83b99f1.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-8e3eeec9a63c444507aff45ee83b99f1.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-483dc7943d92dd8bb8f3ba894fe3fa92.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-483dc7943d92dd8bb8f3ba894fe3fa92.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-4d128f8cf30791f990efb14dcd13b61b.css.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom-4d128f8cf30791f990efb14dcd13b61b.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.css.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-1.9.2.custom.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui-4856b8d4fb395706be8d907efda018e4.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui-4856b8d4fb395706be8d907efda018e4.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.min-28c6a8bb2a5472bfe2d682048318dada.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery-ui.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery-ui.min.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.min-f0be527d7892ef260a72ac74ae956458.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.min-f0be527d7892ef260a72ac74ae956458.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery.min.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery.min.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs-e69b066913d4a1ff967520b8444026d9.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/jquery_ujs.js.gz" afterPath="$PROJECT_DIR$/public/assets/jquery_ujs.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js.gz" afterPath="$PROJECT_DIR$/public/assets/recruiter-message-dc6cb66c215d742c238221ec67da3361.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/recruiter-message.js.gz" afterPath="$PROJECT_DIR$/public/assets/recruiter-message.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips-9533021bbc7e886be6866ec27eada121.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips-c4d48cf626dfb46e496ccd01b5225103.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.css.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/tooltips.js.gz" afterPath="$PROJECT_DIR$/public/assets/tooltips.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/default.css" afterPath="$PROJECT_DIR$/public/assets/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/links.html.erb" afterPath="$PROJECT_DIR$/app/views/home/links.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contact/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/profile.html.erb" afterPath="$PROJECT_DIR$/app/views/home/profile.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/resume.html.erb" afterPath="$PROJECT_DIR$/app/views/home/resume.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.geneangelo.iws" />
@@ -18,10 +142,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/com.geneangelo@assets_precompile.coverage" NAME="assets:precompile Coverage Results" MODIFIED="1401476809720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
-    <SUITE FILE_PATH="coverage/com.geneangelo@Development__com_geneangelo.coverage" NAME="Development: com.geneangelo Coverage Results" MODIFIED="1401479009189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
+    <SUITE FILE_PATH="coverage/com.geneangelo@assets_precompile.coverage" NAME="assets:precompile Coverage Results" MODIFIED="1401818863913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
+    <SUITE FILE_PATH="coverage/com.geneangelo@Development__com_geneangelo.coverage" NAME="Development: com.geneangelo Coverage Results" MODIFIED="1401818916784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
+    <SUITE FILE_PATH="coverage/com.geneangelo@assets_clean__com_geneangelo.coverage" NAME="assets:clean: com.geneangelo Coverage Results" MODIFIED="1401818243301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
     <SUITE FILE_PATH="coverage/com.geneangelo@All_tests_in_test__com_geneangelo.coverage" NAME="All tests in test: com.geneangelo Coverage Results" MODIFIED="1400781646373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
-    <SUITE FILE_PATH="coverage/com.geneangelo@assets_clean__com_geneangelo.coverage" NAME="assets:clean: com.geneangelo Coverage Results" MODIFIED="1401385062779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="com.geneangelo" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,21 +159,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="profile.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="profile.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/profile.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35665914" vertical-offset="1807" max-vertical-offset="2880">
-              <caret line="131" column="72" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="2910">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_overview.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_overview.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.583334" vertical-offset="232" max-vertical-offset="1095">
-              <caret line="66" column="13" selection-start-line="44" selection-start-column="2" selection-end-line="66" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="915">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/resume.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="9735">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="915">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/contact/create.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="0" column="54" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/links.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="705">
+              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3" vertical-offset="3345" max-vertical-offset="5880">
+              <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,20 +278,20 @@
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_flash_notice.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_job_title.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/links.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/resume.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_recruiter_message.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_preference_block.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_overview.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/resume.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/profile.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/default.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/contact/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/links.html.erb" />
       </list>
     </option>
   </component>
@@ -224,6 +408,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -295,6 +511,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.geneangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -955,28 +1193,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="CommandRunConfigurationType" factoryName="Gem Command">
-      <module name="" />
-      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
-      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
-      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="" />
-      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="" />
-      <method />
-    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -999,6 +1215,28 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CommandRunConfigurationType" factoryName="Gem Command">
+      <module name="" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
@@ -1395,7 +1633,11 @@
       <created>1401482068505</created>
       <updated>1401482068505</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Add more graphic keys.">
+      <created>1401497987700</created>
+      <updated>1401497987700</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1423,24 +1665,24 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.69010043" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32804233" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.49426112" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39124668" sideWeight="0.49713057" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35582012" sideWeight="0.5178827" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27968526" sideWeight="0.32352942" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.46556672" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32717678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22022955" sideWeight="0.26392573" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19384836" sideWeight="0.6764706" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35582012" sideWeight="0.481402" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19670959" sideWeight="0.6764706" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39124668" sideWeight="0.49713057" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27968526" sideWeight="0.32352942" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35582012" sideWeight="0.5178827" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35488126" sideWeight="0.481402" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.46556672" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.49426112" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994709" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.66795367" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994709" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1461,7 +1703,6 @@
     </option>
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Asset precompile param bug." />
     <MESSAGE value="Add support for SendGrid Heroku Addon, as sending emails via godaddy smtp sucks." />
     <MESSAGE value="Email garbled." />
     <MESSAGE value="Remove :content_type to ActionMailer." />
@@ -1486,7 +1727,8 @@
     <MESSAGE value="Create a partial for preferences blocks." />
     <MESSAGE value="Text update." />
     <MESSAGE value="Update technological preferences blurb." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update technological preferences blurb." />
+    <MESSAGE value="Add more graphic keys." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more graphic keys." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1514,13 +1756,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_overview.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="826" max-vertical-offset="1260">
@@ -1612,20 +1847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60685486" vertical-offset="0" max-vertical-offset="0">
-          <caret line="36" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41845495" vertical-offset="150" max-vertical-offset="26160">
@@ -1661,27 +1882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact/create.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="54" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="15.625" vertical-offset="465" max-vertical-offset="885">
-          <caret line="6" column="66" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_email.text.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
@@ -1700,20 +1900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="480">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1425">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1743,22 +1929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="3195">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="915">
-          <caret line="49" column="62" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/links.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="120" max-vertical-offset="705">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1822,7 +1992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.1633987" vertical-offset="345" max-vertical-offset="855">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1830,23 +1999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/resume.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37931034" vertical-offset="0" max-vertical-offset="9705">
-          <caret line="11" column="102" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.5" vertical-offset="3900" max-vertical-offset="5715">
-          <caret line="232" column="43" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1854,7 +2006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="435">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1862,22 +2013,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <caret line="0" column="70" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_overview.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.583334" vertical-offset="232" max-vertical-offset="1095">
+        <state vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="1095">
           <caret line="66" column="13" selection-start-line="44" selection-start-column="2" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="735">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="461">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/default.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3" vertical-offset="3345" max-vertical-offset="5880">
+          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/resume.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="9735">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/links.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="705">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="915">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/profile.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35665914" vertical-offset="1807" max-vertical-offset="2880">
-          <caret line="131" column="72" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="2910">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="915">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <caret line="0" column="54" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>

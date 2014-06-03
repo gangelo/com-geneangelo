@@ -15,6 +15,7 @@ body {
   font-family: verdana, "Lucida Grande", arial, helvetica, sans-serif;
   font-size: $base-font-size;
   margin: 0;
+  line-height: 1.50em;
 }
 
 a:link {color:#1C94C4;}
@@ -225,6 +226,16 @@ div.hr {
 /* section*/
 .section {
   margin-top: 25px;
+}
+
+.section>p {
+  margin-top: 20px;
+}
+
+.page-name {
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
 }
 
 .section>.small-quote {
